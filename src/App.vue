@@ -20,26 +20,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss">
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    overflow-x: hidden;
-}
-
-.center {
-    padding-left: 18.75%;
-    padding-right: 18.75%;
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-</style>
