@@ -1,0 +1,23 @@
+.poster {
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding-top: 111px;
+
+    &__intro {
+        background-color: $whiteColor;
+        border-radius: 37px 37px 0 0;
+        padding: 41px 125px;
+        text-align: center;
+    }
+
+    &__title {
+        @include setterFontStyle('DM Serif Display', 40px, 125%, $blackSiteColor);
+    }
+
+    &__text {
+        letter-spacing: 0.22px;
+        @include setterFontStyle('Jost', 22px, 150%, $grayColor);
+    }
+}

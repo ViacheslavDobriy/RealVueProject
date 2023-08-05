@@ -2,6 +2,7 @@
 @import 'footer.scss';
 @import 'header.scss';
 @import 'mixins';
+@import 'poster.scss';
 * {
     margin: 0;
     padding: 0;
@@ -89,7 +90,7 @@ body {
     gap: 93px;
     padding-top: 96px;
     padding-bottom: 96px;
-    max-width: -webkit-fill-available;
+    width: -webkit-fill-available;
     &__header {
         display: flex;
         flex-direction: column;
@@ -116,9 +117,11 @@ body {
         letter-spacing: 0.22px;
     }
     &__options {
-        display: flex;
-        flex-direction: column;
-        gap: 56px;
+        display: grid;
+        grid-template-columns: repeat(2, 356.5625px);
+        justify-content: space-between;
+        gap: 52px;
+        
     }
     &__productLine {
         display: flex;
@@ -193,6 +196,11 @@ body {
         gap: 76px;
         text-align: center;
         align-items: center;
+    }
+    &__container {
+        display: flex;
+        flex-direction: row;
+        gap: 76px;
     }
     &__box {
         display: flex;
