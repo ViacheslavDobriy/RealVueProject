@@ -1,15 +1,15 @@
 <template>
   <div class="content center">
-    <headerVue />
+    <AppHeader />
     <SubHeader />
     <ProjectTager />
-    <footerVue />
+    <AppFooter />
   </div>
 </template>
 
 <script>
-import footerVue from './components/footer.vue'
-import headerVue from './components/header.vue'
+import AppFooter from './components/AppFooter.vue'
+import AppHeader from './components/AppHeader.vue'
 import mainpageVue from './components/landing/mainpage.vue'
 import SubHeader from './components/SubHeader.vue'
 import ProjectTager from './components/ProjectTager.vue'
@@ -17,8 +17,8 @@ import ProjectTager from './components/ProjectTager.vue'
 export default {
   name: 'App',
   components: {
-    headerVue,
-    footerVue,
+    AppHeader,
+    AppFooter,
     mainpageVue,
     SubHeader,
     ProjectTager
