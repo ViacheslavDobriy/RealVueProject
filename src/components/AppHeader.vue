@@ -9,15 +9,34 @@
                 <h2 class="header__title">Interno</h2>
             </div>
             <div class="header__menuBar">
-                <a href="#" class="header__link">Home</a>
-                <a href="#" class="header__link">Project</a>
-                <a href="blog.html" class="header__link">Blog</a>
+                <a v-for="link in this.links" :key="link.id" :href=link.href :class=link.class> {{ link.content }}</a>
             </div>
         </header>
 </template>
 
 <script>
 export default {
-  name: 'header'
+  name: 'header',
+  data() {
+    return {
+        links: [
+            {
+                href: '#',
+                class: 'header__link',
+                content: 'Home'
+            },
+            {
+                href: '#',
+                class: 'header__link',
+                content: 'Project'
+            },
+            {
+                href: '#',
+                class: 'header__link',
+                content: 'Blog'
+            }
+        ]
+    }
+  }
 }
 </script>
