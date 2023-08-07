@@ -25,9 +25,7 @@
             </div>
             <div class="footer__block footer__block_center">
                 <h3 class="footer__sub-title">Pages</h3>
-                <a href="#" class="footer__link">Home</a>
-                <a href="#" class="footer__link">Project</a>
-                <a href="#" class="footer__link">Blog</a>
+                <a v-for="link in this.getFooterLinks()" :key="link.id" :href=link.href :class=link.class> {{ link.content }}</a>
             </div>
             <div class="footer__block footer__block_right">
                 <h3 class="footer__sub-title footer__sub-title_contact">Contacts</h3>
@@ -39,10 +37,15 @@
   </template>
   
   <script>
+import { mapGetters, mapState } from 'vuex';
+
   export default {
     name: 'footer',
-    props: {
-  
+    methods: {
+        ...mapGetters(['getFooterLinks'])
+    },
+    computed: {
+        ...mapState(['links'])
     }
   }
   </script>
