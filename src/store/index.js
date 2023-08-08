@@ -281,7 +281,59 @@ export default createStore({
             }
         ],
         ProjectPageButtons: ['Bathroom', 'Bedroom', 'Kitchen', 'Living Area'],
-        selectedChapter: 'Bedroom'
+        selectedChapter: 'Bedroom',
+        postersData: [
+            {
+                title: 'Our Project',
+                breadcrumbs: 'Home / Project'
+            },
+            {
+                title: 'Articles & News',
+                breadcrumbs: 'Home / Blog'
+            }
+        ],
+        designData: [
+            {
+                image: "Design1.png",
+                labelText: "Kitchen Design",
+                title: "Let’s Get Solution For Building Construction Work",
+                date: "26 December, 2022"
+            },
+            {
+                image: "Design2.png",
+                labelText: "Living Design",
+                title: "Let’s Get Solution For Building Construction Work",
+                date: "22 December, 2022"
+            },
+            {
+                image: "Design3.png",
+                labelText: "Interior Design",
+                title: "Let’s Get Solution For Building Construction Work",
+                date: "25 December, 2022"
+            },
+            {
+                image: "Design4.png",
+                labelText: "Kitchen Design",
+                title: "Let’s Get Solution For Building Construction Work",
+                date: "26 December, 2022"
+            },
+            {
+                image: "Design5.png",
+                labelText: "Living Design",
+                title: "Let’s Get Solution For Building Construction Work",
+                date: "22 December, 2022"
+            },
+            {
+                image: "Design6.png",
+                labelText: "Interior Design",
+                title: "Let’s Get Solution For Building Construction Work",
+                date: "25 December, 2022",
+                texts: [
+                    'Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae turpis dignissim maximus.posuere in.Contrary to popular belief.',
+                    'Lorem Ipsum is not simply random text. It has roots in a piece of classica.'
+                ]
+            }
+        ]
     },
     mutations: {
         changeSelectedChapter(state, chapter) {
@@ -306,6 +358,15 @@ export default createStore({
                 return state.projectPageCardsData.find((card) => card.chapter === 'livingArea');
             }
             return state.projectPageCardsData.find((chapter) => chapter.chapter === state.selectedChapter.toLowerCase());
+        },
+        getPostersData: state => {
+            return state.postersData;
+        },
+        getDesignData: state => {
+            return state.designData;
+        },
+        getLastDesignData: state => {
+            return state.designData.slice(-1).at(0);
         }
     }
 })

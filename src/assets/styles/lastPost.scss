@@ -1,0 +1,59 @@
+.last-post {
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+
+    &__title {
+        letter-spacing: 1px;
+        @include setterFontStyle('DM Serif Display', 50px, 125%, $blackSiteColor);
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: row;
+        gap: 65px;
+        padding: 22px;
+        border-radius: 62px;
+        border: 1px solid #E7E7E7;
+        box-shadow: 0px 10px 30px 0px rgba(255, 255, 255, 0.25);
+    }
+
+    &__image {
+        border-radius: 50px;
+        width: 50%;
+    }
+
+    &__description {
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        justify-content: flex-start;
+    }
+
+    &__subtitle {
+        letter-spacing: 0.5px;
+        padding-bottom: 22px;
+        @include setterFontStyle('DM Serif Display', 25px, 125%, $blackSiteColor);
+    }
+
+    &__text {
+        letter-spacing: 0.22px;
+        @include setterFontStyle('Jost', 22px, 150%, $grayColor);
+    }
+
+    &__footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 41px;
+    }
+
+    &__date {
+        letter-spacing: 0.16px;
+        text-transform: capitalize;
+        @include setterFontStyle('Jost', 16px, 150%, $grayColor);
+    }
+}
