@@ -28,6 +28,7 @@ export default {
     display: flex;
     gap: 20px;
     justify-content: center;
+    padding-top: 51px;
     &__link:hover svg {
         fill: #F4F0EC;
     }

@@ -1,0 +1,35 @@
+.news {
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+    width: -webkit-fill-available;
+
+    &__title {
+        letter-spacing: 1px;
+        padding-bottom: 30px;
+        @include setterFontStyle('DM Serif Display', 50px, 125%, $blackSiteColor);
+    }
+
+    &__designs-box {
+        display: grid;
+        grid-template-columns: repeat(3, 255px);
+        gap: 27px;
+    }
+
+    &__pagination {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+        padding-top: 51px;
+        padding-bottom: 200px;
+    }
+
+    &__link:hover svg {
+        fill: $lightGoldSiteColor;
+    }
+
+    &__link:hover svg circle {
+        stroke: none;
+    }
+}
