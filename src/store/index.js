@@ -288,23 +288,23 @@ export default createStore({
         getFooterLinks: state => {
             return state.links.filter((link) => link.class === 'footer__link')
         },
-        getCardsData(state, title) {
-            console.log(title);
-            switch (title) {
-                case 'Bedroom':
-                    console.log(state.projectPageCardsData.find((card) => card.chapter === 'bedroom'));
-                    return state.projectPageCardsData.at(0);
-                    break;
-                case 'Bathroom':
-                    return state.projectPageCardsData.at(1);
-                    break;
-                case 'Kitchen':
-                    return state.projectPageCardsData.at(2);
-                    break;
-                case 'Living Area':
-                    return state.projectPageCardsData.at(3);
-                    break;
-            }
-        }
+        // getCardsData(state, title) {
+        //     console.log(title);
+        //     switch (title) {
+        //         case 'Bedroom':
+        //             console.log(state.projectPageCardsData.find((card) => card.chapter === 'bedroom'));
+        //             return state.projectPageCardsData.at(0);
+        //             break;
+        //         case 'Bathroom':
+        //             return state.projectPageCardsData.at(1);
+        //             break;
+        //         case 'Kitchen':
+        //             return state.projectPageCardsData.at(2);
+        //             break;
+        //         case 'Living Area':
+        //             return state.projectPageCardsData.at(3);
+        //             break;
+        //     }
+        // }
     }
 })
