@@ -1,0 +1,14 @@
+.pagination {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 51px;
+    padding-bottom: 200px;
+    
+    &__link:hover svg {
+        fill: $lightGoldSiteColor;
+    }
+    &__link:hover svg circle {
+        stroke: none;
+    }
+}

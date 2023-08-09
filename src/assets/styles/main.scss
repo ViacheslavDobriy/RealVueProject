@@ -6,6 +6,7 @@
 @import 'lastPost.scss';
 @import 'articlesNews.scss';
 @import 'blogDetails.scss';
+@import 'pagination.scss';
 * {
     margin: 0;
     padding: 0;
@@ -33,7 +34,7 @@ body {
 
 .banner {
     width: -webkit-fill-available;
-    background-image: url(@/assets/imgs/banner/Photo.png);
+    background-image: url(@/assets/imgs/banner/Photo.webp);
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
