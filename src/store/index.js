@@ -41,56 +41,56 @@ export default createStore({
             {
                 id: 'card1',
                 span: 3,
-                image: 'card1.png',
+                image: 'card1.webp',
                 title: 'Minimal Bedroom',
                 subTitle: 'Decor / Artchitecture'
             },
             {
                 id: 'card2',
                 span: 2,
-                image: 'card2.png',
+                image: 'card2.webp',
                 title: 'Minimal Bedroom',
                 subTitle: 'Decor / Artchitecture'
             },
             {
                 id: 'card3',
                 span: 2,
-                image: 'card3.png',
+                image: 'card3.webp',
                 title: 'Classic Minimal Bedroom',
                 subTitle: 'Decor / Artchitecture'
             },
             {
                 id: 'card4',
                 span: 3,
-                image: 'card4.png',
+                image: 'card4.webp',
                 title: 'Modern Bedroom',
                 subTitle: 'Decor / Artchitecture'
             },
             {
                 id: 'card5',
                 span: 3,
-                image: 'card5.png',
+                image: 'card5.webp',
                 title: 'Minimal Bedroom table',
                 subTitle: 'Decor / Artchitecture'
             },
             {
                 id: 'card6',
                 span: 2,
-                image: 'card6.png',
+                image: 'card6.webp',
                 title: 'System Table',
                 subTitle: 'Decor / Artchitecture'
             },
             {
                 id: 'card7',
                 span: 2,
-                image: 'card7.png',
+                image: 'card7.webp',
                 title: 'Modern Bedroom',
                 subTitle: 'Decor / Artchitecture'
             },
             {
                 id: 'card8',
                 span: 2,
-                image: 'card8.png',
+                image: 'card8.webp',
                 title: 'Modern Bedroom',
                 subTitle: 'Decor / Artchitecture'
             }
@@ -102,21 +102,21 @@ export default createStore({
             {
                 id: 'card1',
                 span: 3,
-                image: 'card1.jpeg',
+                image: 'card1.webp',
                 title: 'Minimal Bathroom',
                 subTitle: 'Decor / Artchitecture'
             },
             {
                 id: 'card2',
                 span: 2,
-                image: 'card2.jpeg',
+                image: 'card2.webp',
                 title: 'Minimal Bathroom',
                 subTitle: 'Decor / Artchitecture'
             },
             {
                 id: 'card3',
                 span: 2,
-                image: 'card3.jpeg',
+                image: 'card3.webp',
                 title: 'Classic Minimal Bathroom',
                 subTitle: 'Decor / Artchitecture'
             },
@@ -130,21 +130,21 @@ export default createStore({
             {
                 id: 'card5',
                 span: 3,
-                image: 'card5.jpeg',
+                image: 'card5.webp',
                 title: 'Minimal Bathroom table',
                 subTitle: 'Decor / Artchitecture'
             },
             {
                 id: 'card6',
                 span: 2,
-                image: 'card6.jpeg',
+                image: 'card6.webp',
                 title: 'System Table',
                 subTitle: 'Decor / Artchitecture'
             },
             {
                 id: 'card7',
                 span: 2,
-                image: 'card7.jpeg',
+                image: 'card7.webp',
                 title: 'Modern Bathroom',
                 subTitle: 'Decor / Artchitecture'
             },
@@ -163,56 +163,56 @@ export default createStore({
             {
                 id: 'card1',
                 span: 3,
-                image: 'card1.jpeg',
+                image: 'card1.webp',
                 title: 'Minimal Kitchen',
                 subTitle: 'Decor / Artchitecture'
             },
             {
                 id: 'card2',
                 span: 2,
-                image: 'card2.jpeg',
+                image: 'card2.webp',
                 title: 'Minimal Kitchen',
                 subTitle: 'Decor / Artchitecture'
             },
             {
                 id: 'card3',
                 span: 2,
-                image: 'card3.jpeg',
+                image: 'card3.webp',
                 title: 'Classic Minimal Kitchen',
                 subTitle: 'Decor / Artchitecture'
             },
             {
                 id: 'card4',
                 span: 3,
-                image: 'card4.jpeg',
+                image: 'card4.webp',
                 title: 'Modern Kitchen',
                 subTitle: 'Decor / Artchitecture'
             },
             {
                 id: 'card5',
                 span: 3,
-                image: 'card5.jpeg',
+                image: 'card5.webp',
                 title: 'Minimal Kitchen table',
                 subTitle: 'Decor / Artchitecture'
             },
             {
                 id: 'card6',
                 span: 2,
-                image: 'card6.jpeg',
+                image: 'card6.webp',
                 title: 'System Table',
                 subTitle: 'Decor / Artchitecture'
             },
             {
                 id: 'card7',
                 span: 2,
-                image: 'card7.jpeg',
+                image: 'card7.webp',
                 title: 'Modern Kitchen',
                 subTitle: 'Decor / Artchitecture'
             },
             {
                 id: 'card8',
                 span: 2,
-                image: 'card8.jpeg',
+                image: 'card8.webp',
                 title: 'Modern Kitchen',
                 subTitle: 'Decor / Artchitecture'
             }
@@ -224,35 +224,35 @@ export default createStore({
             {
                 id: 'card1',
                 span: 3,
-                image: 'card1.jpeg',
+                image: 'card1.webp',
                 title: 'Minimal Living Area',
                 subTitle: 'Decor / Artchitecture'
             },
             {
                 id: 'card2',
                 span: 2,
-                image: 'card2.jpeg',
+                image: 'card2.webp',
                 title: 'Minimal Living Area',
                 subTitle: 'Decor / Artchitecture'
             },
             {
                 id: 'card3',
                 span: 2,
-                image: 'card3.jpeg',
+                image: 'card3.webp',
                 title: 'Classic Minimal Living Area',
                 subTitle: 'Decor / Artchitecture'
             },
             {
                 id: 'card4',
                 span: 3,
-                image: 'card4.jpeg',
+                image: 'card4.webp',
                 title: 'Modern Living Area',
                 subTitle: 'Decor / Artchitecture'
             },
             {
                 id: 'card5',
                 span: 3,
-                image: 'card5.jpeg',
+                image: 'card5.webp',
                 title: 'Minimal Living Area table',
                 subTitle: 'Decor / Artchitecture'
             },
@@ -266,14 +266,14 @@ export default createStore({
             {
                 id: 'card7',
                 span: 2,
-                image: 'card7.jpeg',
+                image: 'card7.webp',
                 title: 'Modern Living Area',
                 subTitle: 'Decor / Artchitecture'
             },
             {
                 id: 'card8',
                 span: 2,
-                image: 'card8.png',
+                image: 'card8.webp',
                 title: 'Modern Living Area',
                 subTitle: 'Decor / Artchitecture'
             }
@@ -302,37 +302,37 @@ export default createStore({
         ],
         designData: [
             {
-                image: "Design1.png",
+                image: "Design1.webp",
                 labelText: "Kitchen Design",
                 title: "Let’s Get Solution For Building Construction Work",
                 date: "26 December, 2022"
             },
             {
-                image: "Design2.png",
+                image: "Design2.webp",
                 labelText: "Living Design",
                 title: "Let’s Get Solution For Building Construction Work",
                 date: "22 December, 2022"
             },
             {
-                image: "Design3.png",
+                image: "Design3.webp",
                 labelText: "Interior Design",
                 title: "Let’s Get Solution For Building Construction Work",
                 date: "25 December, 2022"
             },
             {
-                image: "Design4.png",
+                image: "Design4.webp",
                 labelText: "Kitchen Design",
                 title: "Let’s Get Solution For Building Construction Work",
                 date: "26 December, 2022"
             },
             {
-                image: "Design5.png",
+                image: "Design5.webp",
                 labelText: "Living Design",
                 title: "Let’s Get Solution For Building Construction Work",
                 date: "22 December, 2022"
             },
             {
-                image: "Design6.png",
+                image: "Design6.webp",
                 labelText: "Interior Design",
                 title: "Let’s Get Solution For Building Construction Work",
                 date: "25 December, 2022",
@@ -348,7 +348,7 @@ export default createStore({
                 box1: {
                     title: `Let’s Get Solution for Building
                     Construction Work`,
-                    image: `tagKitchen1.png`,
+                    image: `tagKitchen1.webp`,
                     date: `26 December, 2022`,
                     texts: [
                         `Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae
@@ -363,7 +363,7 @@ export default createStore({
                 quote: `The details are not the details. They make the design.`,
                 box2: {
                     title: `Design sprints are great`,
-                    image: `tagKitchen2.png`,
+                    image: `tagKitchen2.webp`,
                     texts: [
                         `Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae
                         turpmaximus.posuere in.Contrary to popular belief.There are many variations of passages of Lorem
@@ -386,7 +386,7 @@ export default createStore({
                 chapter: 'Bedroom',
                 box1: {
                     title: `The Bedroom: Your Restful Retreat`,
-                    image: `bedroom1.jpeg`,
+                    image: `bedroom1.webp`,
                     date: `22 January, 2023`,
                     texts: [
                         `So much more than just where you sleep, today's bedrooms also serve as a home office, media room and a prime location for snuggling kids or pets. Bedrooms are also an excellent space for showing off your personal style. From Scandi to Farmhouse to Boho and every look in-between, our tips will help you make your bedroom a beautiful reflection of your style. Not sure if your look leans toward traditional or if cozy cottage is more your style — take our quiz, below, to find out.`,
@@ -421,7 +421,7 @@ export default createStore({
                 quote: `Design is intelligence made visible.`,
                 box2: {
                     title: `Gray Cape Cod-Style Home`,
-                    image: `building2.jpeg`,
+                    image: `building2.webp`,
                     texts: [
                         `A slate tile walkway leads up to a charming Cape Cod-style house with loads of charm.`,
                         `Traditional gables and columns set the tone for the home's classic interiors, while a red front door beckons to guests and creates a fun focal point.`
@@ -432,7 +432,7 @@ export default createStore({
                 chapter: 'Architecture',
                 box1: {
                     title: `About IS Architecture`,
-                    image: `architecture1.jpeg`,
+                    image: `architecture1.webp`,
                     date: `30 March, 2023`,
                     texts: [
                         `IS Architecture’s design philosophy is grounded on the principles of assessing a client’s needs and creating extraordinary spaces which compliment and maximize the site or existing structures.`,
@@ -442,7 +442,7 @@ export default createStore({
                 quote: `Everything is designed. Few things are designed well.`,
                 box2: {
                     title: `French Country Estate`,
-                    image: `architecture2.jpeg`,
+                    image: `architecture2.webp`,
                     texts: [
                         `The main portion of this French country home and the fence enclosing the courtyard are built from natural stone.`,
                         `The exterior of the private spaces of the home are clad in a contrasting stucco, drawing a visual boundary between public and private spaces, even from the exterior of the home.`
@@ -453,7 +453,7 @@ export default createStore({
                 chapter: 'Kitchen Planning',
                 box1: {
                     title: `He Made Over His Childhood Kitchen, Now It's Cozy-Chic`,
-                    image: `kitchenDesign1.jpeg`,
+                    image: `kitchenDesign1.webp`,
                     date: `2 August, 2022`,
                     texts: [
                         `Love marble, love its imperfections. Alison considers the inevitable stains and etching part of the patina, and worth it for the pretty veining. As well, consider counter tricks.`,
@@ -463,7 +463,7 @@ export default createStore({
                 quote: `You can't use up creativity. The more you use, the more you have.`,
                 box2: {
                     title: `An Outdoor Kitchen Dream Come True`,
-                    image: `kitchenDesign2.jpeg`,
+                    image: `kitchenDesign2.webp`,
                     texts: [
                         `Architectural details are always a good thing. The coffered ceiling in the living room creates drama. Another way to add something extra: installing decorative beams.`,
                         `Under-counter wine storage comes in handy. “It keeps your main fridge from getting too crowded, you can set it to the perfect temp, and it helps with resale value”.`
@@ -474,7 +474,7 @@ export default createStore({
                 chapter: 'Bathroom',
                 box1: {
                     title: `31 Blue Bathroom Design Ideas`,
-                    image: `bathroom1.jpeg`,
+                    image: `bathroom1.webp`,
                     date: `9 September, 2020`,
                     texts: [
                         `With less square footage to decorate or remodel, small bathrooms and powder rooms are ideal spaces to go all out on design. From fun flooring and fixture ideas to useful space-saving solutions, follow our expert tips and tricks to amp up and make the most out of your tiny space.`,
@@ -484,7 +484,7 @@ export default createStore({
                 quote: `Design adds value faster than it adds costs.`,
                 box2: {
                     title: `Small Bathroom Solutions`,
-                    image: `bathroom2.jpeg`,
+                    image: `bathroom2.webp`,
                     texts: [
                         `Wet room bathrooms — a space fully built with materials designed to get wet — usually include a shower space and freestanding tub in their own glass enclosure. Wet rooms continue to be a smart solution for small spaces, but they're also turning up in luxury bathrooms. It's a natural step from the freestanding tub trend.`,
                         `In this wet room, a stylish freestanding bathtub is strategically placed under an oversized picture window. Floors made of limestone complete the spa-like atmosphere.`
@@ -496,7 +496,55 @@ export default createStore({
             title: `Tags`,
             buttonNames: [`Kitchen`, `Bedroom`, `Building`, `Architecture`, `Kitchen Planning`, `Bathroom`],
             selectedButton: 'Kitchen'
-        }
+        },
+        mainPageProjectData: [
+            {
+                id: 'product1',
+                image: 'Product1.webp',
+                title: 'Modern Kitchen',
+                subTitle: 'Decor / Artchitecture'
+            },
+            {
+                id: 'product2',
+                image: 'Product2.webp',
+                title: 'Modern Kitchen',
+                subTitle: 'Decor / Artchitecture'
+            },
+            {
+                id: 'product3',
+                image: 'Product3.webp',
+                title: 'Modern Kitchen',
+                subTitle: 'Decor / Artchitecture'
+            },
+            {
+                id: 'product4',
+                image: 'Product4.webp',
+                title: 'Modern Kitchen',
+                subTitle: 'Decor / Artchitecture'
+            }
+        ],
+        mainPageCounterData: [
+            {
+                number: 12,
+                property: 'Years Of Experience',
+                isVisibleLine: true
+            },
+            {
+                number: 85,
+                property: 'Success Projects',
+                isVisibleLine: true
+            },
+            {
+                number: 15,
+                property: 'Active Projects',
+                isVisibleLine: true
+            },
+            {
+                number: 95,
+                property: 'Happy Customers',
+                isVisibleLine: false
+            }
+        ]
     },
     mutations: {
         changeSelectedChapter(state, chapter) {
@@ -540,6 +588,12 @@ export default createStore({
         getSelectedBlogDetailsPage: state => {
             console.log(state.blogDetailsPageData.find((chapter) => chapter.chapter === state.blogDetailsButtons.selectedButton));
             return state.blogDetailsPageData.find((chapter) => chapter.chapter === state.blogDetailsButtons.selectedButton);
+        },
+        getMainPageProjectData: state => {
+            return state.mainPageProjectData;
+        },
+        getMainPageCounterData: state => {
+            return state.mainPageCounterData;
         }
     }
 })

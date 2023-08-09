@@ -23,19 +23,3 @@ export default {
     name: 'Pagination'
 }
 </script>
-<style scoped lang="scss">
-.pagination {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    padding-top: 51px;
-    padding-bottom: 200px;
-    
-    &__link:hover svg {
-        fill: #F4F0EC;
-    }
-    &__link:hover svg circle {
-        stroke: none;
-    }
-}
-</style>
