@@ -1,4 +1,5 @@
 <template>
+    <SubHeader :posterData="getPostersData.find((item) => item.id === 'projectPoster')" />
     <div class="projectTager">
         <div class="projectTager__buttons">
             <button class="projectTager__button" v-for="button in this.getProjectPageButtons()" :key="button.id" @click="setChapter(button)">{{ button }}</button>
@@ -12,12 +13,14 @@
 <script>
 import ProjectCard from './ProjectCard.vue';
 import Pagination from './Pagination.vue';
+import SubHeader from './SubHeader.vue';
 import { mapGetters, mapMutations } from 'vuex';
 export default {
     name: 'ProjectTager',
     components: {
         ProjectCard,
-        Pagination
+        Pagination,
+        SubHeader
     },
     methods: {
         ...mapMutations(['changeSelectedChapter']),
@@ -41,15 +44,13 @@ export default {
         }
     },
     computed: {
-        ...mapGetters(['getSelectedCard'])
+        ...mapGetters(['getSelectedCard', 'getPostersData'])
     }
 }
 </script>
 <style lang="scss">
 
 .projectTager {
-    padding-top: 200px;
-    padding-bottom: 200px;
     display: flex;
     flex-direction: column;
     gap: 60px;

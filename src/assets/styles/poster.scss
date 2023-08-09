@@ -3,13 +3,16 @@
     background-size: cover;
     display: flex;
     justify-content: center;
-    padding-top: 111px;
+    align-items: flex-end;
+    background-repeat: no-repeat;
+    margin-bottom: 200px;
 
     &__intro {
         background-color: $whiteColor;
         border-radius: 37px 37px 0 0;
         padding: 41px 125px;
         text-align: center;
+        margin-top: 102px;
     }
 
     &__title {
@@ -20,4 +23,15 @@
         letter-spacing: 0.22px;
         @include setterFontStyle('Jost', 22px, 150%, $grayColor);
     }
+}
+
+#projectPoster {
+    background-image: url(@/assets/imgs/subHeaders/projectPoster.png);
+}
+#blogPoster {
+    background-image: url(@/assets/imgs/subHeaders/blogPoster.png);
+}
+#blogDetailsPoster {
+    background-image: url(@/assets/imgs/subHeaders/blogDetailsPoster.png);
+    height: 263px;
 }
