@@ -1,5 +1,5 @@
 <template>
-    <SubHeader :posterData="getPostersData.find((item) => item.title === 'Articles & News')"/>
+    <SubHeader :posterData="getPostersData.find((item) => item.id === 'blogPoster')"/>
     <LatestPost />
     <ArticlesNews />
     <Pagination />
@@ -24,6 +24,3 @@ export default {
     }
 }
 </script>
-<style lang="">
-    
-</style>

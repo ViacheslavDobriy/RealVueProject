@@ -1,6 +1,6 @@
 <template>
-    <div class="poster" id="projectPoster">
-        <div class="poster__intro">
+    <div class="poster" :id="posterData.id">
+        <div class="poster__intro" v-show="posterData.isTitleExist">
             <h1 class="poster__title">{{ posterData.title }}</h1>
             <p class="poster__text">{{ posterData.breadcrumbs }}</p>
         </div>
@@ -14,10 +14,3 @@ export default {
     }
 }
 </script>
-<style scoped lang="scss">
-
-#projectPoster {
-    background-image: url(@/assets/imgs/project/poster.png);
-    background-repeat: no-repeat;
-}
-</style>

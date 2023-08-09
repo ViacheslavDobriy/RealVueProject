@@ -29,6 +29,8 @@ export default {
     gap: 20px;
     justify-content: center;
     padding-top: 51px;
+    padding-bottom: 200px;
+    
     &__link:hover svg {
         fill: #F4F0EC;
     }
