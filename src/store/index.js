@@ -43,56 +43,64 @@ export default createStore({
                 span: 3,
                 image: 'card1.webp',
                 title: 'Minimal Bedroom',
-                subTitle: 'Decor / Artchitecture'
+                subTitle: 'Decor / Artchitecture',
+                isStarred: false
             },
             {
                 id: 'card2',
                 span: 2,
                 image: 'card2.webp',
                 title: 'Minimal Bedroom',
-                subTitle: 'Decor / Artchitecture'
+                subTitle: 'Decor / Artchitecture',
+                isStarred: false
             },
             {
                 id: 'card3',
                 span: 2,
                 image: 'card3.webp',
                 title: 'Classic Minimal Bedroom',
-                subTitle: 'Decor / Artchitecture'
+                subTitle: 'Decor / Artchitecture',
+                isStarred: false
             },
             {
                 id: 'card4',
                 span: 3,
                 image: 'card4.webp',
                 title: 'Modern Bedroom',
-                subTitle: 'Decor / Artchitecture'
+                subTitle: 'Decor / Artchitecture',
+                isStarred: false
             },
             {
                 id: 'card5',
                 span: 3,
                 image: 'card5.webp',
                 title: 'Minimal Bedroom table',
-                subTitle: 'Decor / Artchitecture'
+                subTitle: 'Decor / Artchitecture',
+                isStarred: false
             },
             {
                 id: 'card6',
                 span: 2,
                 image: 'card6.webp',
                 title: 'System Table',
-                subTitle: 'Decor / Artchitecture'
+                subTitle: 'Decor / Artchitecture',
+                isStarred: false
             },
             {
                 id: 'card7',
                 span: 2,
                 image: 'card7.webp',
                 title: 'Modern Bedroom',
-                subTitle: 'Decor / Artchitecture'
+                subTitle: 'Decor / Artchitecture',
+                isStarred: false
             },
             {
                 id: 'card8',
                 span: 2,
                 image: 'card8.webp',
                 title: 'Modern Bedroom',
-                subTitle: 'Decor / Artchitecture'
+                subTitle: 'Decor / Artchitecture',
+                isStarred: false
             }
                 ]
             },
@@ -104,56 +112,64 @@ export default createStore({
                 span: 3,
                 image: 'card1.webp',
                 title: 'Minimal Bathroom',
-                subTitle: 'Decor / Artchitecture'
+                subTitle: 'Decor / Artchitecture',
+                isStarred: false
             },
             {
                 id: 'card2',
                 span: 2,
                 image: 'card2.webp',
                 title: 'Minimal Bathroom',
-                subTitle: 'Decor / Artchitecture'
+                subTitle: 'Decor / Artchitecture',
+                isStarred: false
             },
             {
                 id: 'card3',
                 span: 2,
                 image: 'card3.webp',
                 title: 'Classic Minimal Bathroom',
-                subTitle: 'Decor / Artchitecture'
+                subTitle: 'Decor / Artchitecture',
+                isStarred: false
             },
             {
                 id: 'card4',
                 span: 3,
                 image: 'card4.webp',
                 title: 'Modern Bathroom',
-                subTitle: 'Decor / Artchitecture'
+                subTitle: 'Decor / Artchitecture',
+                isStarred: false
             },
             {
                 id: 'card5',
                 span: 3,
                 image: 'card5.webp',
                 title: 'Minimal Bathroom table',
-                subTitle: 'Decor / Artchitecture'
+                subTitle: 'Decor / Artchitecture',
+                isStarred: false
             },
             {
                 id: 'card6',
                 span: 2,
                 image: 'card6.webp',
                 title: 'System Table',
-                subTitle: 'Decor / Artchitecture'
+                subTitle: 'Decor / Artchitecture',
+                isStarred: false
             },
             {
                 id: 'card7',
                 span: 2,
                 image: 'card7.webp',
                 title: 'Modern Bathroom',
-                subTitle: 'Decor / Artchitecture'
+                subTitle: 'Decor / Artchitecture',
+                isStarred: false
             },
             {
                 id: 'card8',
                 span: 2,
                 image: 'card8.webp',
                 title: 'Modern Bathroom',
-                subTitle: 'Decor / Artchitecture'
+                subTitle: 'Decor / Artchitecture',
+                isStarred: false
             }
                 ]
             },
@@ -165,56 +181,64 @@ export default createStore({
                 span: 3,
                 image: 'card1.webp',
                 title: 'Minimal Kitchen',
-                subTitle: 'Decor / Artchitecture'
+                subTitle: 'Decor / Artchitecture',
+                isStarred: false
             },
             {
                 id: 'card2',
                 span: 2,
                 image: 'card2.webp',
                 title: 'Minimal Kitchen',
-                subTitle: 'Decor / Artchitecture'
+                subTitle: 'Decor / Artchitecture',
+                isStarred: false
             },
             {
                 id: 'card3',
                 span: 2,
                 image: 'card3.webp',
                 title: 'Classic Minimal Kitchen',
-                subTitle: 'Decor / Artchitecture'
+                subTitle: 'Decor / Artchitecture',
+                isStarred: false
             },
             {
                 id: 'card4',
                 span: 3,
                 image: 'card4.webp',
                 title: 'Modern Kitchen',
-                subTitle: 'Decor / Artchitecture'
+                subTitle: 'Decor / Artchitecture',
+                isStarred: false
             },
             {
                 id: 'card5',
                 span: 3,
                 image: 'card5.webp',
                 title: 'Minimal Kitchen table',
-                subTitle: 'Decor / Artchitecture'
+                subTitle: 'Decor / Artchitecture',
+                isStarred: false
             },
             {
                 id: 'card6',
                 span: 2,
                 image: 'card6.webp',
                 title: 'System Table',
-                subTitle: 'Decor / Artchitecture'
+                subTitle: 'Decor / Artchitecture',
+                isStarred: false
             },
             {
                 id: 'card7',
                 span: 2,
                 image: 'card7.webp',
                 title: 'Modern Kitchen',
-                subTitle: 'Decor / Artchitecture'
+                subTitle: 'Decor / Artchitecture',
+                isStarred: false
             },
             {
                 id: 'card8',
                 span: 2,
                 image: 'card8.webp',
                 title: 'Modern Kitchen',
-                subTitle: 'Decor / Artchitecture'
+                subTitle: 'Decor / Artchitecture',
+                isStarred: false
             }
                 ]
             },
@@ -226,56 +250,64 @@ export default createStore({
                 span: 3,
                 image: 'card1.webp',
                 title: 'Minimal Living Area',
-                subTitle: 'Decor / Artchitecture'
+                subTitle: 'Decor / Artchitecture',
+                isStarred: false
             },
             {
                 id: 'card2',
                 span: 2,
                 image: 'card2.webp',
                 title: 'Minimal Living Area',
-                subTitle: 'Decor / Artchitecture'
+                subTitle: 'Decor / Artchitecture',
+                isStarred: false
             },
             {
                 id: 'card3',
                 span: 2,
                 image: 'card3.webp',
                 title: 'Classic Minimal Living Area',
-                subTitle: 'Decor / Artchitecture'
+                subTitle: 'Decor / Artchitecture',
+                isStarred: false
             },
             {
                 id: 'card4',
                 span: 3,
                 image: 'card4.webp',
                 title: 'Modern Living Area',
-                subTitle: 'Decor / Artchitecture'
+                subTitle: 'Decor / Artchitecture',
+                isStarred: false
             },
             {
                 id: 'card5',
                 span: 3,
                 image: 'card5.webp',
                 title: 'Minimal Living Area table',
-                subTitle: 'Decor / Artchitecture'
+                subTitle: 'Decor / Artchitecture',
+                isStarred: false
             },
             {
                 id: 'card6',
                 span: 2,
                 image: 'card6.webp',
                 title: 'System Table',
-                subTitle: 'Decor / Artchitecture'
+                subTitle: 'Decor / Artchitecture',
+                isStarred: false
             },
             {
                 id: 'card7',
                 span: 2,
                 image: 'card7.webp',
                 title: 'Modern Living Area',
-                subTitle: 'Decor / Artchitecture'
+                subTitle: 'Decor / Artchitecture',
+                isStarred: false
             },
             {
                 id: 'card8',
                 span: 2,
                 image: 'card8.webp',
                 title: 'Modern Living Area',
-                subTitle: 'Decor / Artchitecture'
+                subTitle: 'Decor / Artchitecture',
+                isStarred: false
             }
                 ]
             }
@@ -552,6 +584,12 @@ export default createStore({
         },
         changeBlogDetailsSelectedButton(state, buttonName) {
             state.blogDetailsButtons.selectedButton = buttonName;
+        },
+        changeIsStarred(state, details) {
+            const chapter = state.projectPageCardsData.find((item) => item.chapter === details.chapter);
+            const card = chapter.cards.find((item) => item.id === details.id);
+            card.isStarred = !card.isStarred;
+            console.log(card.isStarred);
         }
     },
     getters: {
@@ -586,7 +624,6 @@ export default createStore({
             return state.blogDetailsButtons;
         },
         getSelectedBlogDetailsPage: state => {
-            console.log(state.blogDetailsPageData.find((chapter) => chapter.chapter === state.blogDetailsButtons.selectedButton));
             return state.blogDetailsPageData.find((chapter) => chapter.chapter === state.blogDetailsButtons.selectedButton);
         },
         getMainPageProjectData: state => {
@@ -594,6 +631,12 @@ export default createStore({
         },
         getMainPageCounterData: state => {
             return state.mainPageCounterData;
+        },
+        getSelectedItem: state => id => {
+            if (state.selectedChapter === 'Living Area') {
+                return state.projectPageCardsData.find((card) => card.chapter === 'livingArea').cards.find((item) => item.id === id);
+            }
+            return state.projectPageCardsData.find((chapter) => chapter.chapter === state.selectedChapter.toLowerCase()).cards.find((item) => item.id === id);
         }
     }
 })
