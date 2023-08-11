@@ -1,7 +1,7 @@
 <template>
   <div class="content center">
     <AppHeader />
-    <ProjectTager />
+    <mainpageVue/>
     <AppFooter />
   </div>
 </template>
