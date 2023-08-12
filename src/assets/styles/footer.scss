@@ -20,6 +20,9 @@
         gap: 10px;
         align-items: baseline;
     }
+    &__titleLink {
+        text-decoration: none;
+    }
     &__title {
         color: $blackSiteColor;
         font-size: 40px;
@@ -27,6 +30,10 @@
         font-weight: 400;
         line-height: 125%;
         padding-bottom: 18px;
+        transition: 0.3s;
+        &:hover {
+            color: $goldSiteColor;
+        }
     }
     &__text {
         color: $grayColor;
@@ -42,6 +49,14 @@
         align-items: center;
         gap: 54px;
         padding-top: 31px;
+    }
+    &__svg {
+        path {
+            transition: 0.5s;
+            &:hover {
+                fill: $goldSiteColor;
+            }
+        }
     }
     &__sub-title {
         color: $blackSiteColor;
@@ -62,6 +77,10 @@
         font-weight: 400;
         line-height: 300%;
         letter-spacing: 0.22px;
+        transition: 0.3s;
+        &:hover {
+            color: $goldSiteColor;
+        }
     }
     &__high-text {
         color: $grayColor;
