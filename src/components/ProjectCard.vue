@@ -23,13 +23,14 @@
         <div class="project__details">
             <div class="project__productText">
                 <h3 class="project__productTitle"> {{ card.title }}</h3>
-                <p class="project__productDescription">{{ card.subTitle }}</p>
+                <p class="project__productBreadcrumbs"><a class="project__productBreadcrumb" href="#" v-for="breadcrumb in card.breadcrumbs" :key="breadcrumb.id"> {{ breadcrumb }}</a></p>
             </div>
-            <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="35" cy="35" r="35" fill="#F4F0EC" />
-                <path d="M32 44L40 35L32 26" stroke="#292F36" stroke-width="2" stroke-linecap="round"
-                    stroke-linejoin="round" />
-            </svg>
+            <a href="#" class="project__link">
+                <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="35" cy="35" r="35" fill="#F4F0EC" />
+                    <path d="M32 44L40 35L32 26" stroke="#292F36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </a>
         </div>
     </div>
 </template>
@@ -44,8 +45,7 @@ export default {
     },
     data() {
         return {
-            id: this.card.id,
-            cardLocal: this.card
+            id: this.card.id
         }
     },
     methods: {
@@ -61,47 +61,3 @@ export default {
     }
 }
 </script>
-<style scoped lang="scss">
-.project {
-    &__product {
-        position: relative;
-    }
-    &__star {
-        position: absolute;
-        right: 0%;
-        svg g {
-            cursor: pointer;
-            &:hover path {
-                fill: #FFA928;
-            }
-        } 
-    }
-}
-.isSelected g path {
-    fill: #FFA928;
-}
-#card1 {
-    grid-row: span 3;
-}
-#card2 {
-    grid-row: span 2;
-}
-#card3 {
-    grid-row: span 2;
-}
-#card4 {
-    grid-row: span 3;
-}
-#card5 {
-    grid-row: span 3;
-}
-#card6 {
-    grid-row: span 2;
-}
-#card7 {
-    grid-row: span 2;
-}
-#card8 {
-    grid-row: span 2;
-}
-</style>

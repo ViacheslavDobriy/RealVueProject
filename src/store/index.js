@@ -43,7 +43,7 @@ export default createStore({
                 span: 3,
                 image: 'card1.webp',
                 title: 'Minimal Bedroom',
-                subTitle: 'Decor / Artchitecture',
+                breadcrumbs: ['Decor', 'Artchitecture'],
                 isStarred: false
             },
             {
@@ -51,7 +51,7 @@ export default createStore({
                 span: 2,
                 image: 'card2.webp',
                 title: 'Minimal Bedroom',
-                subTitle: 'Decor / Artchitecture',
+                breadcrumbs: ['Decor', 'Artchitecture'],
                 isStarred: false
             },
             {
@@ -59,7 +59,7 @@ export default createStore({
                 span: 2,
                 image: 'card3.webp',
                 title: 'Classic Minimal Bedroom',
-                subTitle: 'Decor / Artchitecture',
+                breadcrumbs: ['Decor', 'Artchitecture'],
                 isStarred: false
             },
             {
@@ -67,7 +67,7 @@ export default createStore({
                 span: 3,
                 image: 'card4.webp',
                 title: 'Modern Bedroom',
-                subTitle: 'Decor / Artchitecture',
+                breadcrumbs: ['Decor', 'Artchitecture'],
                 isStarred: false
             },
             {
@@ -75,7 +75,7 @@ export default createStore({
                 span: 3,
                 image: 'card5.webp',
                 title: 'Minimal Bedroom table',
-                subTitle: 'Decor / Artchitecture',
+                breadcrumbs: ['Decor', 'Artchitecture'],
                 isStarred: false
             },
             {
@@ -83,7 +83,7 @@ export default createStore({
                 span: 2,
                 image: 'card6.webp',
                 title: 'System Table',
-                subTitle: 'Decor / Artchitecture',
+                breadcrumbs: ['Decor', 'Artchitecture'],
                 isStarred: false
             },
             {
@@ -91,7 +91,7 @@ export default createStore({
                 span: 2,
                 image: 'card7.webp',
                 title: 'Modern Bedroom',
-                subTitle: 'Decor / Artchitecture',
+                breadcrumbs: ['Decor', 'Artchitecture'],
                 isStarred: false
             },
             {
@@ -99,7 +99,7 @@ export default createStore({
                 span: 2,
                 image: 'card8.webp',
                 title: 'Modern Bedroom',
-                subTitle: 'Decor / Artchitecture',
+                breadcrumbs: ['Decor', 'Artchitecture'],
                 isStarred: false
             }
                 ]
@@ -112,7 +112,7 @@ export default createStore({
                 span: 3,
                 image: 'card1.webp',
                 title: 'Minimal Bathroom',
-                subTitle: 'Decor / Artchitecture',
+                breadcrumbs: ['Decor', 'Artchitecture'],
                 isStarred: false
             },
             {
@@ -120,7 +120,7 @@ export default createStore({
                 span: 2,
                 image: 'card2.webp',
                 title: 'Minimal Bathroom',
-                subTitle: 'Decor / Artchitecture',
+                breadcrumbs: ['Decor', 'Artchitecture'],
                 isStarred: false
             },
             {
@@ -128,7 +128,7 @@ export default createStore({
                 span: 2,
                 image: 'card3.webp',
                 title: 'Classic Minimal Bathroom',
-                subTitle: 'Decor / Artchitecture',
+                breadcrumbs: ['Decor', 'Artchitecture'],
                 isStarred: false
             },
             {
@@ -136,7 +136,7 @@ export default createStore({
                 span: 3,
                 image: 'card4.webp',
                 title: 'Modern Bathroom',
-                subTitle: 'Decor / Artchitecture',
+                breadcrumbs: ['Decor', 'Artchitecture'],
                 isStarred: false
             },
             {
@@ -144,7 +144,7 @@ export default createStore({
                 span: 3,
                 image: 'card5.webp',
                 title: 'Minimal Bathroom table',
-                subTitle: 'Decor / Artchitecture',
+                breadcrumbs: ['Decor', 'Artchitecture'],
                 isStarred: false
             },
             {
@@ -152,7 +152,7 @@ export default createStore({
                 span: 2,
                 image: 'card6.webp',
                 title: 'System Table',
-                subTitle: 'Decor / Artchitecture',
+                breadcrumbs: ['Decor', 'Artchitecture'],
                 isStarred: false
             },
             {
@@ -160,7 +160,7 @@ export default createStore({
                 span: 2,
                 image: 'card7.webp',
                 title: 'Modern Bathroom',
-                subTitle: 'Decor / Artchitecture',
+                breadcrumbs: ['Decor', 'Artchitecture'],
                 isStarred: false
             },
             {
@@ -168,7 +168,7 @@ export default createStore({
                 span: 2,
                 image: 'card8.webp',
                 title: 'Modern Bathroom',
-                subTitle: 'Decor / Artchitecture',
+                breadcrumbs: ['Decor', 'Artchitecture'],
                 isStarred: false
             }
                 ]
@@ -181,7 +181,7 @@ export default createStore({
                 span: 3,
                 image: 'card1.webp',
                 title: 'Minimal Kitchen',
-                subTitle: 'Decor / Artchitecture',
+                breadcrumbs: ['Decor', 'Artchitecture'],
                 isStarred: false
             },
             {
@@ -189,7 +189,7 @@ export default createStore({
                 span: 2,
                 image: 'card2.webp',
                 title: 'Minimal Kitchen',
-                subTitle: 'Decor / Artchitecture',
+                breadcrumbs: ['Decor', 'Artchitecture'],
                 isStarred: false
             },
             {
@@ -197,7 +197,7 @@ export default createStore({
                 span: 2,
                 image: 'card3.webp',
                 title: 'Classic Minimal Kitchen',
-                subTitle: 'Decor / Artchitecture',
+                breadcrumbs: ['Decor', 'Artchitecture'],
                 isStarred: false
             },
             {
@@ -205,7 +205,7 @@ export default createStore({
                 span: 3,
                 image: 'card4.webp',
                 title: 'Modern Kitchen',
-                subTitle: 'Decor / Artchitecture',
+                breadcrumbs: ['Decor', 'Artchitecture'],
                 isStarred: false
             },
             {
@@ -213,7 +213,7 @@ export default createStore({
                 span: 3,
                 image: 'card5.webp',
                 title: 'Minimal Kitchen table',
-                subTitle: 'Decor / Artchitecture',
+                breadcrumbs: ['Decor', 'Artchitecture'],
                 isStarred: false
             },
             {
@@ -221,7 +221,7 @@ export default createStore({
                 span: 2,
                 image: 'card6.webp',
                 title: 'System Table',
-                subTitle: 'Decor / Artchitecture',
+                breadcrumbs: ['Decor', 'Artchitecture'],
                 isStarred: false
             },
             {
@@ -229,7 +229,7 @@ export default createStore({
                 span: 2,
                 image: 'card7.webp',
                 title: 'Modern Kitchen',
-                subTitle: 'Decor / Artchitecture',
+                breadcrumbs: ['Decor', 'Artchitecture'],
                 isStarred: false
             },
             {
@@ -237,7 +237,7 @@ export default createStore({
                 span: 2,
                 image: 'card8.webp',
                 title: 'Modern Kitchen',
-                subTitle: 'Decor / Artchitecture',
+                breadcrumbs: ['Decor', 'Artchitecture'],
                 isStarred: false
             }
                 ]
@@ -250,7 +250,7 @@ export default createStore({
                 span: 3,
                 image: 'card1.webp',
                 title: 'Minimal Living Area',
-                subTitle: 'Decor / Artchitecture',
+                breadcrumbs: ['Decor', 'Artchitecture'],
                 isStarred: false
             },
             {
@@ -258,7 +258,7 @@ export default createStore({
                 span: 2,
                 image: 'card2.webp',
                 title: 'Minimal Living Area',
-                subTitle: 'Decor / Artchitecture',
+                breadcrumbs: ['Decor', 'Artchitecture'],
                 isStarred: false
             },
             {
@@ -266,7 +266,7 @@ export default createStore({
                 span: 2,
                 image: 'card3.webp',
                 title: 'Classic Minimal Living Area',
-                subTitle: 'Decor / Artchitecture',
+                breadcrumbs: ['Decor', 'Artchitecture'],
                 isStarred: false
             },
             {
@@ -274,7 +274,7 @@ export default createStore({
                 span: 3,
                 image: 'card4.webp',
                 title: 'Modern Living Area',
-                subTitle: 'Decor / Artchitecture',
+                breadcrumbs: ['Decor', 'Artchitecture'],
                 isStarred: false
             },
             {
@@ -282,7 +282,7 @@ export default createStore({
                 span: 3,
                 image: 'card5.webp',
                 title: 'Minimal Living Area table',
-                subTitle: 'Decor / Artchitecture',
+                breadcrumbs: ['Decor', 'Artchitecture'],
                 isStarred: false
             },
             {
@@ -290,7 +290,7 @@ export default createStore({
                 span: 2,
                 image: 'card6.webp',
                 title: 'System Table',
-                subTitle: 'Decor / Artchitecture',
+                breadcrumbs: ['Decor', 'Artchitecture'],
                 isStarred: false
             },
             {
@@ -298,7 +298,7 @@ export default createStore({
                 span: 2,
                 image: 'card7.webp',
                 title: 'Modern Living Area',
-                subTitle: 'Decor / Artchitecture',
+                breadcrumbs: ['Decor', 'Artchitecture'],
                 isStarred: false
             },
             {
@@ -306,7 +306,7 @@ export default createStore({
                 span: 2,
                 image: 'card8.webp',
                 title: 'Modern Living Area',
-                subTitle: 'Decor / Artchitecture',
+                breadcrumbs: ['Decor', 'Artchitecture'],
                 isStarred: false
             }
                 ]
@@ -318,13 +318,13 @@ export default createStore({
             {
                 id: 'projectPoster',
                 title: 'Our Project',
-                breadcrumbs: 'Home / Project',
+                breadcrumbs: ['Home', 'Project'],
                 isTitleExist: true
             },
             {
                 id: 'blogPoster',
                 title: 'Articles & News',
-                breadcrumbs: 'Home / Blog',
+                breadcrumbs: ['Home', 'Blog'],
                 isTitleExist: true
             },
             {
@@ -589,7 +589,6 @@ export default createStore({
             const chapter = state.projectPageCardsData.find((item) => item.chapter === details.chapter);
             const card = chapter.cards.find((item) => item.id === details.id);
             card.isStarred = !card.isStarred;
-            console.log(card.isStarred);
         }
     },
     getters: {
