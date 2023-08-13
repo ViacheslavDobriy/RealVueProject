@@ -18,10 +18,18 @@
     &__title {
         @include setterFontStyle('DM Serif Display', 40px, 125%, $blackSiteColor);
     }
-
-    &__text {
+    &__breadcrumb {
         letter-spacing: 0.22px;
         @include setterFontStyle('Jost', 22px, 150%, $grayColor);
+        text-decoration: none;
+        transition: 0.3s;
+        &:nth-child(n+2):before {
+            content: ' / ';
+            cursor: default;
+        }
+        &:nth-child(n):hover {
+            color: $goldSiteColor;
+        }
     }
 }
 

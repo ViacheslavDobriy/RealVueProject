@@ -106,48 +106,27 @@ body {
     padding-top: 96px;
     padding-bottom: 96px;
     width: -webkit-fill-available;
-    &__header {
-        display: flex;
-        flex-direction: column;
-        gap: 8px;
-        width: 700px;
-        align-self: center;
-    }
-    &__title {
-        color: $blackSiteColor;
-        text-align: center;
-        font-size: 50px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 125%;
-        letter-spacing: 1px;
-    }
-    &__description {
-        color: $grayColor;
-        text-align: center;
-        font-size: 22px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 150%;
-        letter-spacing: 0.22px;
-    }
-    &__options {
-        display: grid;
-        grid-template-columns: repeat(2, 356.5625px);
-        justify-content: space-between;
-        gap: 52px;
-        
-    }
-    &__productLine {
-        display: flex;
-        flex-direction: row;
-        gap: 104px;
-        max-width: $centerWidth;
-    }
     &__product {
         display: flex;
         flex-direction: column;
         gap: 24px;
+        position: relative;
+    }
+    &__star {
+        position: absolute;
+        right: 0%;
+        svg g {
+            cursor: pointer;
+            &:hover path {
+                fill: #FFA928;
+            }
+        } 
+    }
+    &__link {
+        transition: 0.3s;
+        &:hover {
+            color: $goldSiteColor;
+        }
     }
     &__details {
         display: flex;
@@ -168,13 +147,21 @@ body {
         line-height: 125%;
         letter-spacing: 0.5px;
     }
-    &__productDescription {
+    &__productBreadcrumb {
+        text-decoration: none;
         color: $grayColor;
         font-size: 22px;
         font-style: normal;
         font-weight: 400;
         line-height: 150%;
         letter-spacing: 0.22px;
+        transition: 0.3s;
+        &:nth-child(n+2)::before {
+            content: ' / ';
+        }
+        &:hover {
+            color: $goldSiteColor;
+        }
     }
     &__link svg path {
         transition: 0.3s;
@@ -182,6 +169,34 @@ body {
     &__link:hover svg path {
         stroke: $goldSiteColor;
     }
+}
+
+.isSelected g path {
+    fill: #FFA928;
+}
+#card1 {
+    grid-row: span 3;
+}
+#card2 {
+    grid-row: span 2;
+}
+#card3 {
+    grid-row: span 2;
+}
+#card4 {
+    grid-row: span 3;
+}
+#card5 {
+    grid-row: span 3;
+}
+#card6 {
+    grid-row: span 2;
+}
+#card7 {
+    grid-row: span 2;
+}
+#card8 {
+    grid-row: span 2;
 }
 
 #product1 {
