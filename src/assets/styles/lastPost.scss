@@ -55,4 +55,13 @@
         text-transform: capitalize;
         @include setterFontStyle('Jost', 16px, 150%, $grayColor);
     }
+
+    &__link {
+        svg path {
+        transition: 0.3s;
+        }
+        &:hover svg path {
+            stroke: $goldSiteColor;
+        }
+    }
 }

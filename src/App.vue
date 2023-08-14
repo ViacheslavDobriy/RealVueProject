@@ -1,7 +1,7 @@
 <template>
   <div class="content center">
     <AppHeader />
-    <ProjectTager />
+    <BlogDetails />
     <AppFooter />
   </div>
 </template>
