@@ -9,9 +9,7 @@
                     <div class="details__dateBreadcrumbsBox">
                         <p class="details__date">{{ getSelectedBlogDetailsPage.box1.date}}</p>
                         <p class="details__breadcrumbs">
-                            <a href="#" class="details__breadcrumb">Interior</a> /
-                            <a href="#" class="details__breadcrumb">Home</a> /
-                            <a href="#" class="details__breadcrumb">Decore</a>
+                            <a href="#" class="details__breadcrumb" v-for="breadcrumb in getSelectedBlogDetailsPage.box1.breadcrumbs" :key="breadcrumb.id">{{ breadcrumb }}</a>
                         </p>
                     </div>
                 </div>

@@ -63,6 +63,13 @@
         letter-spacing: 0.16px;
         text-transform: capitalize;
         @include setterFontStyle('Jost', 16px, 150%, $grayColor);
+        transition: 0.3s;
+        &:nth-child(n+2)::before {
+            content: ' / ';
+        }
+        &:hover {
+            color: $goldSiteColor;
+        }
     }
 
     &__textBox {

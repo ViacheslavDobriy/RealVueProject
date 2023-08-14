@@ -382,6 +382,7 @@ export default createStore({
                     Construction Work`,
                     image: `tagKitchen1.webp`,
                     date: `26 December, 2022`,
+                    breadcrumbs: ['Interior', 'Home', 'Decore'],
                     texts: [
                         `Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae
                         turpmaximus.posuere in.Contrary to popular belief.There are many variations of passages of
@@ -420,6 +421,7 @@ export default createStore({
                     title: `The Bedroom: Your Restful Retreat`,
                     image: `bedroom1.webp`,
                     date: `22 January, 2023`,
+                    breadcrumbs: ['Interior', 'Home', 'Decore'],
                     texts: [
                         `So much more than just where you sleep, today's bedrooms also serve as a home office, media room and a prime location for snuggling kids or pets. Bedrooms are also an excellent space for showing off your personal style. From Scandi to Farmhouse to Boho and every look in-between, our tips will help you make your bedroom a beautiful reflection of your style. Not sure if your look leans toward traditional or if cozy cottage is more your style — take our quiz, below, to find out.`,
                         `With crisp white walls, wood beams and black accents, this spacious main suite definitely achieves a fresh, modern farmhouse aesthetic. Buffalo check pillows, a brown leather sofa and a white oriental rug reinforce this look, as well as pull in some interest and warmth. And, appropriately enough, a chic black barn door grants access to the main bathroom.`
@@ -445,6 +447,7 @@ export default createStore({
                     title: `Charming Gray Cape Cod With Backyard Built for Entertaining`,
                     image: `building1.webp`,
                     date: `12 November, 2021`,
+                    breadcrumbs: ['Interior', 'Home', 'Decore'],
                     texts: [
                         `This lovely gray Cape Cod home features a guest house and backyard pool. The main home also has a high-end patio with outdoor kitchen, built-in fireplace and a TV for entertaining. Inside, a spacious farmhouse-style kitchen offers a large eat-in island, abundant storage and great amenities.`,
                         `A living room with built-in shelves offers a great place to gather, and the master bedroom features a balcony with a lovely ocean view.`
@@ -466,6 +469,7 @@ export default createStore({
                     title: `About IS Architecture`,
                     image: `architecture1.webp`,
                     date: `30 March, 2023`,
+                    breadcrumbs: ['Interior', 'Home', 'Decore'],
                     texts: [
                         `IS Architecture’s design philosophy is grounded on the principles of assessing a client’s needs and creating extraordinary spaces which compliment and maximize the site or existing structures.`,
                         `Inherent in this philosophy is the combination of the highest quality product with exceptional client service. We approach each new project without preconceived notions: our designs are driven by each client’s needs, and our specialty is listening and responding with unique solutions.`
@@ -487,6 +491,7 @@ export default createStore({
                     title: `He Made Over His Childhood Kitchen, Now It's Cozy-Chic`,
                     image: `kitchenDesign1.webp`,
                     date: `2 August, 2022`,
+                    breadcrumbs: ['Interior', 'Home', 'Decore'],
                     texts: [
                         `Love marble, love its imperfections. Alison considers the inevitable stains and etching part of the patina, and worth it for the pretty veining. As well, consider counter tricks.`,
                         `And that’s not really a thick slab of marble on the island. It’s a countertop with mitered edges, a smart way to fake the look that involves joining together thinner pieces of stone. The waterfall edges on either side make it look even more luxe.`
@@ -508,6 +513,7 @@ export default createStore({
                     title: `31 Blue Bathroom Design Ideas`,
                     image: `bathroom1.webp`,
                     date: `9 September, 2020`,
+                    breadcrumbs: ['Interior', 'Home', 'Decore'],
                     texts: [
                         `With less square footage to decorate or remodel, small bathrooms and powder rooms are ideal spaces to go all out on design. From fun flooring and fixture ideas to useful space-saving solutions, follow our expert tips and tricks to amp up and make the most out of your tiny space.`,
                         `So, buy that quirky wallpaper you've been eyeing or install that cool mirror you thrifted to create a bathroom that's only small on space — not style.`
