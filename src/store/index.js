@@ -330,6 +330,10 @@ export default createStore({
             {
                 id: 'blogDetailsPoster',
                 isTitleExist: false
+            },
+            {
+                id: 'projectDetailsPoster',
+                isTitleExist: false
             }
         ],
         designData: [
@@ -582,7 +586,12 @@ export default createStore({
                 property: 'Happy Customers',
                 isVisibleLine: false
             }
-        ]
+        ],
+        projectArticleData: {
+            title: 'Minimal Look Bedrooms',
+            description: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquamsem vitae turpis dignissim maximus. Aliquam sollicitudin tellumassa, vbel maximus purus posuere in. Dojrices gravida dignissim. Praesent at nibh in mi fringilla mattis. Phasellus ut dolor odio. Aenean in the ipsum vel lectus bibendum commodo.', 'In nec sem suscipit, convallis leo vitae, lacinia nibh. Cras amet tellus lectus. Vivamus ipsum nunc, mattis quis nibh id, pellentesque arcu. Donec a pellentesque Cras erat enim, gravida non ante vitae,elequis convallis elit, in viverra felis. Donec ultrices tellus vitae iaculisvd porta. Proin tincidunt ligula id purus porttitor.'],
+            photos: ['project1.webp', 'project2.webp', 'project3.webp']
+        }
     },
     mutations: {
         changeSelectedChapter(state, chapter) {
@@ -642,6 +651,9 @@ export default createStore({
                 return state.projectPageCardsData.find((card) => card.chapter === 'livingArea').cards.find((item) => item.id === id);
             }
             return state.projectPageCardsData.find((chapter) => chapter.chapter === state.selectedChapter.toLowerCase()).cards.find((item) => item.id === id);
+        },
+        getProjectArticleData: state => {
+            return state.projectArticleData;
         }
     }
 })

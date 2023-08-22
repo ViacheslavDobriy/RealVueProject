@@ -1,7 +1,7 @@
 <template>
   <div class="content center">
     <AppHeader />
-    <BlogDetails />
+    <ProjectDetails />
     <AppFooter />
   </div>
 </template>
@@ -13,6 +13,7 @@ import mainpageVue from './components/landing/mainpage.vue'
 import ProjectTager from './components/ProjectTager.vue'
 import BlogPage from './components/blogPage/BlogPage.vue'
 import BlogDetails from './components/blogDetailsPage/BlogDetails.vue'
+import ProjectDetails from './components/projectDetailsPage/ProjectDetails.vue'
 
 export default {
   name: 'App',
@@ -22,7 +23,8 @@ export default {
     mainpageVue,
     ProjectTager,
     BlogPage,
-    BlogDetails
+    BlogDetails,
+    ProjectDetails
   }
 }
 </script>
