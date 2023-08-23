@@ -6,10 +6,10 @@
 </template>
 
 <script>
-import Banner from './Banner.vue';
-import MainProject from './MainProject.vue';
-import MainCounter from './MainCounter.vue';
-import MainBlog from './MainBlog.vue'
+import Banner from '../components/landing/Banner.vue';
+import MainProject from '../components/landing/MainProject.vue';
+import MainCounter from '../components/landing/MainCounter.vue';
+import MainBlog from '../components/landing/MainBlog.vue'
 import { mapGetters } from 'vuex';
 
 export default {

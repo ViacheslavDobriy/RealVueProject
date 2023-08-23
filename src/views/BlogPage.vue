@@ -6,8 +6,8 @@
 </template>
 <script>
 import SubHeader from '@/components/SubHeader.vue'
-import LatestPost from './LatestPost.vue'
-import ArticlesNews from './ArticlesNews.vue'
+import LatestPost from '../components/blogPage/LatestPost.vue'
+import ArticlesNews from '../components/blogPage/ArticlesNews.vue'
 import Pagination from '@/components/Pagination.vue'
 import { mapGetters } from 'vuex'
 

@@ -1,30 +1,41 @@
 <template>
   <div class="content center">
     <AppHeader />
-    <ProjectDetails />
+    <router-view />
     <AppFooter />
   </div>
 </template>
 
 <script>
-import AppFooter from './components/AppFooter.vue'
-import AppHeader from './components/AppHeader.vue'
-import mainpageVue from './components/landing/mainpage.vue'
-import ProjectTager from './components/ProjectTager.vue'
-import BlogPage from './components/blogPage/BlogPage.vue'
-import BlogDetails from './components/blogDetailsPage/BlogDetails.vue'
-import ProjectDetails from './components/projectDetailsPage/ProjectDetails.vue'
+import AppFooter from "./components/AppFooter.vue";
+import AppHeader from "./components/AppHeader.vue";
+
+export default {
+  name: "App",
+  components: {
+    AppFooter,
+    AppHeader,
+  },
+};
+</script>
+<!-- <script>
+
+// import MainPage from './views/MainPage.vue'
+import ProjectTagerPage from './views/ProjectTagerPage.vue'
+import BlogPage from './views/BlogPage.vue'
+import BlogDetailsPage from './views/BlogDetailsPage.vue'
+import ProjectDetailsPage from './views/ProjectDetailsPage.vue'
 
 export default {
   name: 'App',
   components: {
     AppHeader,
     AppFooter,
-    mainpageVue,
-    ProjectTager,
+    // MainPage,
+    ProjectTagerPage,
     BlogPage,
-    BlogDetails,
-    ProjectDetails
+    BlogDetailsPage,
+    ProjectDetailsPage
   }
 }
-</script>
+</script> -->

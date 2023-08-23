@@ -11,9 +11,9 @@
     </div>
 </template>
 <script>
-import ProjectCard from './ProjectCard.vue';
-import Pagination from './Pagination.vue';
-import SubHeader from './SubHeader.vue';
+import ProjectCard from '../components/ProjectCard.vue';
+import Pagination from '../components/Pagination.vue';
+import SubHeader from '../components/SubHeader.vue';
 import { mapGetters, mapMutations } from 'vuex';
 export default {
     name: 'ProjectTager',
