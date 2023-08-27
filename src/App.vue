@@ -15,27 +15,6 @@ export default {
   components: {
     AppFooter,
     AppHeader,
-  },
+  }
 };
 </script>
-<!-- <script>
-
-// import MainPage from './views/MainPage.vue'
-import ProjectTagerPage from './views/ProjectTagerPage.vue'
-import BlogPage from './views/BlogPage.vue'
-import BlogDetailsPage from './views/BlogDetailsPage.vue'
-import ProjectDetailsPage from './views/ProjectDetailsPage.vue'
-
-export default {
-  name: 'App',
-  components: {
-    AppHeader,
-    AppFooter,
-    // MainPage,
-    ProjectTagerPage,
-    BlogPage,
-    BlogDetailsPage,
-    ProjectDetailsPage
-  }
-}
-</script> -->

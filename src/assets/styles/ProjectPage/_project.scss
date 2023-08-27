@@ -1,0 +1,166 @@
+.project {
+    display: flex;
+    flex-direction: column;
+    gap: 93px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    width: -webkit-fill-available;
+
+    &__header {
+        display: flex;
+        flex-direction: column;
+        gap: 20px; // check it!!!!!!!!!
+        align-items: center;
+    }
+
+    &__title {
+        letter-spacing: 1px;
+        @include setterFontStyle('DM Serif Display', 50px, 125%, $blackSiteColor);
+    }
+
+    &__description {
+        color: $grayColor;
+        text-align: center;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0.22px;
+    }
+
+    &__options {
+        display: grid;
+        grid-template-columns: repeat(2, 445px);
+        gap: 10px;
+
+    }
+
+    &__product {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        position: relative;
+    }
+
+    &__star {
+        position: absolute;
+        right: 0%;
+
+        svg g {
+            cursor: pointer;
+
+            &:hover path {
+                fill: #FFA928;
+            }
+        }
+    }
+
+    &__link {
+        transition: 0.3s;
+
+        &:hover {
+            color: $goldSiteColor;
+        }
+    }
+
+    &__details {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__productText {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    &__productTitle {
+        color: $blackSiteColor;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 125%;
+        letter-spacing: 0.5px;
+    }
+
+    &__productBreadcrumb {
+        text-decoration: none;
+        color: $grayColor;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0.22px;
+        transition: 0.3s;
+
+        &:nth-child(n+2)::before {
+            content: ' / ';
+        }
+
+        &:hover {
+            color: $goldSiteColor;
+        }
+    }
+
+    &__link svg path {
+        transition: 0.3s;
+    }
+
+    &__link:hover svg path {
+        stroke: $goldSiteColor;
+    }
+}
+
+.isSelected g path {
+    fill: #FFA928;
+}
+
+#card1 {
+    grid-row: span 3;
+}
+
+#card2 {
+    grid-row: span 2;
+}
+
+#card3 {
+    grid-row: span 2;
+}
+
+#card4 {
+    grid-row: span 3;
+}
+
+#card5 {
+    grid-row: span 3;
+}
+
+#card6 {
+    grid-row: span 2;
+}
+
+#card7 {
+    grid-row: span 2;
+}
+
+#card8 {
+    grid-row: span 2;
+}
+
+#product1 {
+    border-radius: 0 80px 0 0;
+}
+
+#product2 {
+    border-radius: 80px 0 0 0;
+}
+
+#product3 {
+    border-radius: 0 0 80px 0;
+}
+
+#product4 {
+    border-radius: 0 0 0 80px;
+}

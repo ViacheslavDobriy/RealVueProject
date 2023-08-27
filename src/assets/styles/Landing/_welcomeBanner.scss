@@ -1,0 +1,74 @@
+.banner {
+    width: -webkit-fill-available;
+    background-image: url(@/assets/imgs/banner/Photo.webp);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    border-radius: 50px;
+
+    &__intro {
+        display: flex;
+        flex-direction: column;
+        gap: 21px;
+        padding: 113px 30vw 113px 2.7vw;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        justify-content: left;
+    }
+
+    &__title {
+        color: $blackSiteColor;
+        font-size: 65px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 125%;
+    }
+
+    &__text {
+        color: $grayColor;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0.22px;
+    }
+
+    &__button {
+        border: none;
+        border-radius: 18px;
+        background: $blackSiteColor;
+        box-shadow: 0px 10px 20px 0px rgba(192, 192, 192, 0.35);
+        color: $whiteColor;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 125%;
+        letter-spacing: 0.36px;
+        padding: 26px 48px;
+        display: flex;
+        flex-direction: row;
+        width: -webkit-fit-content;
+        gap: 10px;
+        align-items: center;
+        cursor: pointer;
+        transition: 0.3s;
+
+        svg path {
+            transition: 0.3s;
+        }
+
+        &:hover {
+            color: $goldSiteColor;
+
+            svg path {
+                stroke: $goldSiteColor;
+            }
+        }
+    }
+}

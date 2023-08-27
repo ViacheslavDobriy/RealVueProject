@@ -19,9 +19,10 @@
         flex-direction: row;
         gap: 10px;
         align-items: baseline;
-    }
-    &__titleLink {
         text-decoration: none;
+        &:hover .footer__title {
+            color: $goldSiteColor;
+        }
     }
     &__title {
         color: $blackSiteColor;
@@ -31,9 +32,6 @@
         line-height: 125%;
         padding-bottom: 18px;
         transition: 0.3s;
-        &:hover {
-            color: $goldSiteColor;
-        }
     }
     &__text {
         color: $grayColor;

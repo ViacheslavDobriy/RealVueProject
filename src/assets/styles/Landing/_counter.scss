@@ -1,0 +1,52 @@
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $lightGoldSiteColor;
+    width: 100vw;
+
+    &__content {
+        padding-top: 151px;
+        padding-bottom: 151px;
+        display: flex;
+        flex-direction: row;
+        gap: 76px;
+        text-align: center;
+        align-items: center;
+    }
+
+    &__container {
+        display: flex;
+        flex-direction: row;
+        gap: 76px;
+    }
+
+    &__box {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    &__amount {
+        color: $goldSiteColor;
+        font-size: 85px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 125%;
+        letter-spacing: 1.7px;
+    }
+
+    &__subcontent {
+        color: $grayColor;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        letter-spacing: 0.22px;
+    }
+
+    &__vertLine {
+        height: 130px;
+        border: 1px solid $goldSiteColor;
+    }
+}

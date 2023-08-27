@@ -13,22 +13,22 @@ export default createStore({
             content: 'Project'
         },
         {
-            href: '/Blog',
+            href: '/blog',
             class: 'header__link',
             content: 'Blog'
         },
         {
-            href: '#',
+            href: '/',
             class: 'footer__link',
             content: 'Home'
         },
         {
-            href: '#',
+            href: '/projects',
             class: 'footer__link',
             content: 'Project'
         },
         {
-            href: '#',
+            href: '/blog',
             class: 'footer__link',
             content: 'Blog'
         }
