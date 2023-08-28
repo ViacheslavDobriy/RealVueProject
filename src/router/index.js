@@ -5,6 +5,7 @@ import BlogPage from "../views/BlogPage.vue"
 import BlogDetailsPage from "../views/BlogDetailsPage.vue"
 import ProjectTagerPage from "../views/ProjectTagerPage.vue"
 import ProjectDetailsPage from "../views/ProjectDetailsPage.vue"
+import ErrorPage from '../components/ErrorPage.vue'
 
 const routes = [
 
@@ -36,6 +37,11 @@ const routes = [
         name: "ProjectDetailsPage",
         component: ProjectDetailsPage
     },
+    {
+        path: '/:CatchAll(.*)',
+        name: "ErrorPage",
+        component: ErrorPage
+    }
 ];
 
 const router = createRouter({
