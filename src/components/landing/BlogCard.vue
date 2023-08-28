@@ -1,5 +1,5 @@
 <template>
-    <div class="blog__borderBox">
+    <RouterLink to="/blogDetails" class="blog__borderBox">
         <div class="blog__content">
             <div class="blog__photo-box">
                 <img :src="require(`@/assets/imgs/blog/${card.image}`)" alt="photo of design" class="blog__design">
@@ -21,13 +21,16 @@
                 </footer>
             </div>
         </div>
-    </div>
+    </RouterLink>
 </template>
 <script>
+import { RouterLink } from 'vue-router';
+
 export default {
     props: {
         card: Object
     },
-    name: 'BlogCard'
+    name: 'BlogCard',
+    components: { RouterLink }
 }
 </script>

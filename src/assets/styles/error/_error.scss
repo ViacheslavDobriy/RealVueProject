@@ -1,0 +1,65 @@
+.error {
+    display: flex;
+    flex-direction: row;
+    gap: 81px;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 45px;
+
+    &__explain {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    &__number {
+        padding-bottom: 15px;
+        @include setterFontStyle('DM Serif Display', 250px, 125%, $goldSiteColor);
+    }
+
+    &__message {
+        letter-spacing: 0.35px;
+        padding-bottom: 23px;
+        @include setterFontStyle('DM Serif Display', 35px, 150%, $blackSiteColor);
+    }
+
+    &__button {
+        text-decoration: none;
+        border: none;
+        border-radius: 18px;
+        background: $blackSiteColor;
+        box-shadow: 0px 10px 20px 0px rgba(192, 192, 192, 0.35);
+        color: $whiteColor;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 125%;
+        letter-spacing: 0.36px;
+        padding: 26px 48px;
+        display: flex;
+        flex-direction: row;
+        width: -webkit-fit-content;
+        gap: 10px;
+        align-items: center;
+        cursor: pointer;
+        transition: 0.3s;
+
+        svg path {
+            transition: 0.3s;
+        }
+
+        &:hover {
+            color: $goldSiteColor;
+
+            svg path {
+                stroke: $goldSiteColor;
+            }
+        }
+    }
+
+    &__image {
+        width: 714px;
+        border-bottom-left-radius: 353px;
+    }
+}

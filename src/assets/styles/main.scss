@@ -12,6 +12,7 @@
 @import 'Landing/counter';
 @import 'blog';
 @import 'ProjectPage/projectTager';
+@import 'error/error';
 
 * {
     margin: 0;
@@ -36,4 +37,8 @@ body {
 
 .main {
     width: -webkit-fill-available;
+}
+
+a {
+    text-decoration: none;
 }
