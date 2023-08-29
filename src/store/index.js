@@ -33,291 +33,634 @@ export default createStore({
             content: 'Blog'
         }
         ],
-        projectPageCardsData: [{
-            chapter: 'bedroom',
-            cards: [{
-                id: 'card1',
-                span: 3,
-                image: 'card1.webp',
-                title: 'Minimal Bedroom',
-                breadcrumbs: ['Decor', 'Artchitecture'],
-                isStarred: false
+        projectCardsData: [
+            {
+                chapter: 'bedroom',
+                cards: [
+                    {
+                        idProject: 'card1',
+                        idMain: 'product1',
+                        span: 3,
+                        image: 'card1.webp',
+                        title: 'Minimal Bedroom',
+                        breadcrumbs: [
+                            {
+                                linkText: 'Projects',
+                                linkTo: '/projects'
+                            },
+                            {
+                                linkText: 'Minimal Bedroom',
+                                linkTo: '/projectDetails'
+                            }
+                        ],
+                        isStarred: false
+                    },
+                    {
+                        idProject: 'card2',
+                        idMain: 'product1',
+                        span: 2,
+                        image: 'card2.webp',
+                        title: 'Minimal Bedroom',
+                        breadcrumbs: [
+                            {
+                                linkText: 'Projects',
+                                linkTo: '/projects'
+                            },
+                            {
+                                linkText: 'Minimal Bedroom',
+                                linkTo: '/projectDetails'
+                            }
+                        ],
+                        isStarred: false
+                    },
+                    {
+                        idProject: 'card3',
+                        idMain: 'product1',
+                        span: 2,
+                        image: 'card3.webp',
+                        title: 'Classic Minimal Bedroom',
+                        breadcrumbs: [
+                            {
+                                linkText: 'Projects',
+                                linkTo: '/projects'
+                            },
+                            {
+                                linkText: 'Classic Minimal Bedroom',
+                                linkTo: '/projectDetails'
+                            }
+                        ],
+                        isStarred: false
+                    },
+                    {
+                        idProject: 'card4',
+                        idMain: 'product1',
+                        span: 3,
+                        image: 'card4.webp',
+                        title: 'Modern Bedroom',
+                        breadcrumbs: [
+                            {
+                                linkText: 'Projects',
+                                linkTo: '/projects'
+                            },
+                            {
+                                linkText: 'Modern Bedroom',
+                                linkTo: '/projectDetails'
+                            }
+                        ],
+                        isStarred: false
+                    },
+                    {
+                        idProject: 'card5',
+                        idMain: 'product1',
+                        span: 3,
+                        image: 'card5.webp',
+                        title: 'Minimal Bedroom Table',
+                        breadcrumbs: [
+                            {
+                                linkText: 'Projects',
+                                linkTo: '/projects'
+                            },
+                            {
+                                linkText: 'Minimal Bedroom Table',
+                                linkTo: '/projectDetails'
+                            }
+                        ],
+                        isStarred: false
+                    },
+                    {
+                        idProject: 'card6',
+                        idMain: 'product1',
+                        span: 2,
+                        image: 'card6.webp',
+                        title: 'System Table',
+                        breadcrumbs: [
+                            {
+                                linkText: 'Projects',
+                                linkTo: '/projects'
+                            },
+                            {
+                                linkText: 'System Table',
+                                linkTo: '/projectDetails'
+                            }
+                        ],
+                        isStarred: false
+                    },
+                    {
+                        idProject: 'card7',
+                        idMain: 'product1',
+                        span: 2,
+                        image: 'card7.webp',
+                        title: 'Modern Bedroom',
+                        breadcrumbs: [
+                            {
+                                linkText: 'Projects',
+                                linkTo: '/projects'
+                            },
+                            {
+                                linkText: 'Modern Bedroom',
+                                linkTo: '/projectDetails'
+                            }
+                        ],
+                        isStarred: false
+                    },
+                    {
+                        idProject: 'card8',
+                        idMain: 'product1',
+                        span: 2,
+                        image: 'card8.webp',
+                        title: 'Modern Bedroom',
+                        breadcrumbs: [
+                            {
+                                linkText: 'Projects',
+                                linkTo: '/projects'
+                            },
+                            {
+                                linkText: 'Modern Bedroom',
+                                linkTo: '/projectDetails'
+                            }
+                        ],
+                        isStarred: false
+                    }
+                ]
             },
             {
-                id: 'card2',
-                span: 2,
-                image: 'card2.webp',
-                title: 'Minimal Bedroom',
-                breadcrumbs: ['Decor', 'Artchitecture'],
-                isStarred: false
+                chapter: 'bathroom',
+                cards: [
+                    {
+                        idProject: 'card1',
+                        idMain: 'product2',
+                        span: 3,
+                        image: 'card1.webp',
+                        title: 'Minimal Bathroom',
+                        breadcrumbs: [
+                            {
+                                linkText: 'Projects',
+                                linkTo: '/projects'
+                            },
+                            {
+                                linkText: 'Minimal Bathroom',
+                                linkTo: '/projectDetails'
+                            }
+                        ],
+                        isStarred: false
+                    },
+                    {
+                        idProject: 'card2',
+                        idMain: 'product2',
+                        span: 2,
+                        image: 'card2.webp',
+                        title: 'Minimal Bathroom',
+                        breadcrumbs: [
+                            {
+                                linkText: 'Projects',
+                                linkTo: '/projects'
+                            },
+                            {
+                                linkText: 'Minimal Bathroom',
+                                linkTo: '/projectDetails'
+                            }
+                        ],
+                        isStarred: false
+                    },
+                    {
+                        idProject: 'card3',
+                        idMain: 'product2',
+                        span: 2,
+                        image: 'card3.webp',
+                        title: 'Classic Minimal Bathroom',
+                        breadcrumbs: [
+                            {
+                                linkText: 'Projects',
+                                linkTo: '/projects'
+                            },
+                            {
+                                linkText: 'Classic Minimal Bathroom',
+                                linkTo: '/projectDetails'
+                            }
+                        ],
+                        isStarred: false
+                    },
+                    {
+                        idProject: 'card4',
+                        idMain: 'product2',
+                        span: 3,
+                        image: 'card4.webp',
+                        title: 'Modern Bathroom',
+                        breadcrumbs: [
+                            {
+                                linkText: 'Projects',
+                                linkTo: '/projects'
+                            },
+                            {
+                                linkText: 'Modern Bathroom',
+                                linkTo: '/projectDetails'
+                            }
+                        ],
+                        isStarred: false
+                    },
+                    {
+                        idProject: 'card5',
+                        idMain: 'product2',
+                        span: 3,
+                        image: 'card5.webp',
+                        title: 'Minimal Bathroom Table',
+                        breadcrumbs: [
+                            {
+                                linkText: 'Projects',
+                                linkTo: '/projects'
+                            },
+                            {
+                                linkText: 'Minimal Bathroom Table',
+                                linkTo: '/projectDetails'
+                            }
+                        ],
+                        isStarred: false
+                    },
+                    {
+                        idProject: 'card6',
+                        idMain: 'product2',
+                        span: 2,
+                        image: 'card6.webp',
+                        title: 'System Table',
+                        breadcrumbs: [
+                            {
+                                linkText: 'Projects',
+                                linkTo: '/projects'
+                            },
+                            {
+                                linkText: 'System Table',
+                                linkTo: '/projectDetails'
+                            }
+                        ],
+                        isStarred: false
+                    },
+                    {
+                        idProject: 'card7',
+                        idMain: 'product2',
+                        span: 2,
+                        image: 'card7.webp',
+                        title: 'Modern Bathroom',
+                        breadcrumbs: [
+                            {
+                                linkText: 'Projects',
+                                linkTo: '/projects'
+                            },
+                            {
+                                linkText: 'Modern Bathroom',
+                                linkTo: '/projectDetails'
+                            }
+                        ],
+                        isStarred: false
+                    },
+                    {
+                        idProject: 'card8',
+                        idMain: 'product2',
+                        span: 2,
+                        image: 'card8.webp',
+                        title: 'Modern Bathroom',
+                        breadcrumbs: [
+                            {
+                                linkText: 'Projects',
+                                linkTo: '/projects'
+                            },
+                            {
+                                linkText: 'Modern Bathroom',
+                                linkTo: '/projectDetails'
+                            }
+                        ],
+                        isStarred: false
+                    }
+                ]
             },
             {
-                id: 'card3',
-                span: 2,
-                image: 'card3.webp',
-                title: 'Classic Minimal Bedroom',
-                breadcrumbs: ['Decor', 'Artchitecture'],
-                isStarred: false
+                chapter: 'kitchen',
+                cards: [
+                    {
+                        idProject: 'card1',
+                        idMain: 'product3',
+                        span: 3,
+                        image: 'card1.webp',
+                        title: 'Minimal Kitchen',
+                        breadcrumbs: [
+                            {
+                                linkText: 'Projects',
+                                linkTo: '/projects'
+                            },
+                            {
+                                linkText: 'Minimal Kitchen',
+                                linkTo: '/projectDetails'
+                            }
+                        ],
+                        isStarred: false
+                    },
+                    {
+                        idProject: 'card2',
+                        idMain: 'product3',
+                        span: 2,
+                        image: 'card2.webp',
+                        title: 'Minimal Kitchen',
+                        breadcrumbs: [
+                            {
+                                linkText: 'Projects',
+                                linkTo: '/projects'
+                            },
+                            {
+                                linkText: 'Minimal Kitchen',
+                                linkTo: '/projectDetails'
+                            }
+                        ],
+                        isStarred: false
+                    },
+                    {
+                        idProject: 'card3',
+                        idMain: 'product3',
+                        span: 2,
+                        image: 'card3.webp',
+                        title: 'Classic Minimal Kitchen',
+                        breadcrumbs: [
+                            {
+                                linkText: 'Projects',
+                                linkTo: '/projects'
+                            },
+                            {
+                                linkText: 'Classic Minimal Kitchen',
+                                linkTo: '/projectDetails'
+                            }
+                        ],
+                        isStarred: false
+                    },
+                    {
+                        idProject: 'card4',
+                        idMain: 'product3',
+                        span: 3,
+                        image: 'card4.webp',
+                        title: 'Modern Kitchen',
+                        breadcrumbs: [
+                            {
+                                linkText: 'Projects',
+                                linkTo: '/projects'
+                            },
+                            {
+                                linkText: 'Modern Kitchen',
+                                linkTo: '/projectDetails'
+                            }
+                        ],
+                        isStarred: false
+                    },
+                    {
+                        idProject: 'card5',
+                        idMain: 'product3',
+                        span: 3,
+                        image: 'card5.webp',
+                        title: 'Minimal Kitchen Table',
+                        breadcrumbs: [
+                            {
+                                linkText: 'Projects',
+                                linkTo: '/projects'
+                            },
+                            {
+                                linkText: 'Minimal Kitchen Table',
+                                linkTo: '/projectDetails'
+                            }
+                        ],
+                        isStarred: false
+                    },
+                    {
+                        idProject: 'card6',
+                        idMain: 'product3',
+                        span: 2,
+                        image: 'card6.webp',
+                        title: 'System Table',
+                        breadcrumbs: [
+                            {
+                                linkText: 'Projects',
+                                linkTo: '/projects'
+                            },
+                            {
+                                linkText: 'System Table',
+                                linkTo: '/projectDetails'
+                            }
+                        ],
+                        isStarred: false
+                    },
+                    {
+                        idProject: 'card7',
+                        idMain: 'product3',
+                        span: 2,
+                        image: 'card7.webp',
+                        title: 'Modern Kitchen',
+                        breadcrumbs: [
+                            {
+                                linkText: 'Projects',
+                                linkTo: '/projects'
+                            },
+                            {
+                                linkText: 'Modern Kitchen',
+                                linkTo: '/projectDetails'
+                            }
+                        ],
+                        isStarred: false
+                    },
+                    {
+                        idProject: 'card8',
+                        idMain: 'product3',
+                        span: 2,
+                        image: 'card8.webp',
+                        title: 'Modern Kitchen',
+                        breadcrumbs: [
+                            {
+                                linkText: 'Projects',
+                                linkTo: '/projects'
+                            },
+                            {
+                                linkText: 'Modern Kitchen',
+                                linkTo: '/projectDetails'
+                            }
+                        ],
+                        isStarred: false
+                    }
+                ]
             },
             {
-                id: 'card4',
-                span: 3,
-                image: 'card4.webp',
-                title: 'Modern Bedroom',
-                breadcrumbs: ['Decor', 'Artchitecture'],
-                isStarred: false
-            },
-            {
-                id: 'card5',
-                span: 3,
-                image: 'card5.webp',
-                title: 'Minimal Bedroom table',
-                breadcrumbs: ['Decor', 'Artchitecture'],
-                isStarred: false
-            },
-            {
-                id: 'card6',
-                span: 2,
-                image: 'card6.webp',
-                title: 'System Table',
-                breadcrumbs: ['Decor', 'Artchitecture'],
-                isStarred: false
-            },
-            {
-                id: 'card7',
-                span: 2,
-                image: 'card7.webp',
-                title: 'Modern Bedroom',
-                breadcrumbs: ['Decor', 'Artchitecture'],
-                isStarred: false
-            },
-            {
-                id: 'card8',
-                span: 2,
-                image: 'card8.webp',
-                title: 'Modern Bedroom',
-                breadcrumbs: ['Decor', 'Artchitecture'],
-                isStarred: false
+                chapter: 'livingArea',
+                cards: [
+                    {
+                        idProject: 'card1',
+                        idMain: 'product4',
+                        span: 3,
+                        image: 'card1.webp',
+                        title: 'Minimal Living Area',
+                        breadcrumbs: [
+                            {
+                                linkText: 'Projects',
+                                linkTo: '/projects'
+                            },
+                            {
+                                linkText: 'Minimal Living Area',
+                                linkTo: '/projectDetails'
+                            }
+                        ],
+                        isStarred: false
+                    },
+                    {
+                        idProject: 'card2',
+                        idMain: 'product4',
+                        span: 2,
+                        image: 'card2.webp',
+                        title: 'Minimal Living Area',
+                        breadcrumbs: [
+                            {
+                                linkText: 'Projects',
+                                linkTo: '/projects'
+                            },
+                            {
+                                linkText: 'Minimal Living Area',
+                                linkTo: '/projectDetails'
+                            }
+                        ],
+                        isStarred: false
+                    },
+                    {
+                        idProject: 'card3',
+                        idMain: 'product4',
+                        span: 2,
+                        image: 'card3.webp',
+                        title: 'Classic Minimal Living Area',
+                        breadcrumbs: [
+                            {
+                                linkText: 'Projects',
+                                linkTo: '/projects'
+                            },
+                            {
+                                linkText: 'Classic Minimal Living Area',
+                                linkTo: '/projectDetails'
+                            }
+                        ],
+                        isStarred: false
+                    },
+                    {
+                        idProject: 'card4',
+                        idMain: 'product4',
+                        span: 3,
+                        image: 'card4.webp',
+                        title: 'Modern Living Area',
+                        breadcrumbs: [
+                            {
+                                linkText: 'Projects',
+                                linkTo: '/projects'
+                            },
+                            {
+                                linkText: 'Modern Living Area',
+                                linkTo: '/projectDetails'
+                            }
+                        ],
+                        isStarred: false
+                    },
+                    {
+                        idProject: 'card5',
+                        idMain: 'product4',
+                        span: 3,
+                        image: 'card5.webp',
+                        title: 'Minimal Living Area Table',
+                        breadcrumbs: [
+                            {
+                                linkText: 'Projects',
+                                linkTo: '/projects'
+                            },
+                            {
+                                linkText: 'Minimal Living Area Table',
+                                linkTo: '/projectDetails'
+                            }
+                        ],
+                        isStarred: false
+                    },
+                    {
+                        idProject: 'card6',
+                        idMain: 'product4',
+                        span: 2,
+                        image: 'card6.webp',
+                        title: 'System Table',
+                        breadcrumbs: [
+                            {
+                                linkText: 'Projects',
+                                linkTo: '/projects'
+                            },
+                            {
+                                linkText: 'System Table',
+                                linkTo: '/projectDetails'
+                            }
+                        ],
+                        isStarred: false
+                    },
+                    {
+                        idProject: 'card7',
+                        idMain: 'product4',
+                        span: 2,
+                        image: 'card7.webp',
+                        title: 'Modern Living Area',
+                        breadcrumbs: [
+                            {
+                                linkText: 'Projects',
+                                linkTo: '/projects'
+                            },
+                            {
+                                linkText: 'Modern Living Area',
+                                linkTo: '/projectDetails'
+                            }
+                        ],
+                        isStarred: false
+                    },
+                    {
+                        idProject: 'card8',
+                        idMain: 'product4',
+                        span: 2,
+                        image: 'card8.webp',
+                        title: 'Modern Living Area',
+                        breadcrumbs: [
+                            {
+                                linkText: 'Projects',
+                                linkTo: '/projects'
+                            },
+                            {
+                                linkText: 'Modern Living Area',
+                                linkTo: '/projectDetails'
+                            }
+                        ],
+                        isStarred: false
+                    }
+                ]
             }
-            ]
-        },
-        {
-            chapter: 'bathroom',
-            cards: [{
-                id: 'card1',
-                span: 3,
-                image: 'card1.webp',
-                title: 'Minimal Bathroom',
-                breadcrumbs: ['Decor', 'Artchitecture'],
-                isStarred: false
-            },
-            {
-                id: 'card2',
-                span: 2,
-                image: 'card2.webp',
-                title: 'Minimal Bathroom',
-                breadcrumbs: ['Decor', 'Artchitecture'],
-                isStarred: false
-            },
-            {
-                id: 'card3',
-                span: 2,
-                image: 'card3.webp',
-                title: 'Classic Minimal Bathroom',
-                breadcrumbs: ['Decor', 'Artchitecture'],
-                isStarred: false
-            },
-            {
-                id: 'card4',
-                span: 3,
-                image: 'card4.webp',
-                title: 'Modern Bathroom',
-                breadcrumbs: ['Decor', 'Artchitecture'],
-                isStarred: false
-            },
-            {
-                id: 'card5',
-                span: 3,
-                image: 'card5.webp',
-                title: 'Minimal Bathroom table',
-                breadcrumbs: ['Decor', 'Artchitecture'],
-                isStarred: false
-            },
-            {
-                id: 'card6',
-                span: 2,
-                image: 'card6.webp',
-                title: 'System Table',
-                breadcrumbs: ['Decor', 'Artchitecture'],
-                isStarred: false
-            },
-            {
-                id: 'card7',
-                span: 2,
-                image: 'card7.webp',
-                title: 'Modern Bathroom',
-                breadcrumbs: ['Decor', 'Artchitecture'],
-                isStarred: false
-            },
-            {
-                id: 'card8',
-                span: 2,
-                image: 'card8.webp',
-                title: 'Modern Bathroom',
-                breadcrumbs: ['Decor', 'Artchitecture'],
-                isStarred: false
-            }
-            ]
-        },
-        {
-            chapter: 'kitchen',
-            cards: [{
-                id: 'card1',
-                span: 3,
-                image: 'card1.webp',
-                title: 'Minimal Kitchen',
-                breadcrumbs: ['Decor', 'Artchitecture'],
-                isStarred: false
-            },
-            {
-                id: 'card2',
-                span: 2,
-                image: 'card2.webp',
-                title: 'Minimal Kitchen',
-                breadcrumbs: ['Decor', 'Artchitecture'],
-                isStarred: false
-            },
-            {
-                id: 'card3',
-                span: 2,
-                image: 'card3.webp',
-                title: 'Classic Minimal Kitchen',
-                breadcrumbs: ['Decor', 'Artchitecture'],
-                isStarred: false
-            },
-            {
-                id: 'card4',
-                span: 3,
-                image: 'card4.webp',
-                title: 'Modern Kitchen',
-                breadcrumbs: ['Decor', 'Artchitecture'],
-                isStarred: false
-            },
-            {
-                id: 'card5',
-                span: 3,
-                image: 'card5.webp',
-                title: 'Minimal Kitchen table',
-                breadcrumbs: ['Decor', 'Artchitecture'],
-                isStarred: false
-            },
-            {
-                id: 'card6',
-                span: 2,
-                image: 'card6.webp',
-                title: 'System Table',
-                breadcrumbs: ['Decor', 'Artchitecture'],
-                isStarred: false
-            },
-            {
-                id: 'card7',
-                span: 2,
-                image: 'card7.webp',
-                title: 'Modern Kitchen',
-                breadcrumbs: ['Decor', 'Artchitecture'],
-                isStarred: false
-            },
-            {
-                id: 'card8',
-                span: 2,
-                image: 'card8.webp',
-                title: 'Modern Kitchen',
-                breadcrumbs: ['Decor', 'Artchitecture'],
-                isStarred: false
-            }
-            ]
-        },
-        {
-            chapter: 'livingArea',
-            cards: [{
-                id: 'card1',
-                span: 3,
-                image: 'card1.webp',
-                title: 'Minimal Living Area',
-                breadcrumbs: ['Decor', 'Artchitecture'],
-                isStarred: false
-            },
-            {
-                id: 'card2',
-                span: 2,
-                image: 'card2.webp',
-                title: 'Minimal Living Area',
-                breadcrumbs: ['Decor', 'Artchitecture'],
-                isStarred: false
-            },
-            {
-                id: 'card3',
-                span: 2,
-                image: 'card3.webp',
-                title: 'Classic Minimal Living Area',
-                breadcrumbs: ['Decor', 'Artchitecture'],
-                isStarred: false
-            },
-            {
-                id: 'card4',
-                span: 3,
-                image: 'card4.webp',
-                title: 'Modern Living Area',
-                breadcrumbs: ['Decor', 'Artchitecture'],
-                isStarred: false
-            },
-            {
-                id: 'card5',
-                span: 3,
-                image: 'card5.webp',
-                title: 'Minimal Living Area table',
-                breadcrumbs: ['Decor', 'Artchitecture'],
-                isStarred: false
-            },
-            {
-                id: 'card6',
-                span: 2,
-                image: 'card6.webp',
-                title: 'System Table',
-                breadcrumbs: ['Decor', 'Artchitecture'],
-                isStarred: false
-            },
-            {
-                id: 'card7',
-                span: 2,
-                image: 'card7.webp',
-                title: 'Modern Living Area',
-                breadcrumbs: ['Decor', 'Artchitecture'],
-                isStarred: false
-            },
-            {
-                id: 'card8',
-                span: 2,
-                image: 'card8.webp',
-                title: 'Modern Living Area',
-                breadcrumbs: ['Decor', 'Artchitecture'],
-                isStarred: false
-            }
-            ]
-        }
         ],
         ProjectPageButtons: ['Bathroom', 'Bedroom', 'Kitchen', 'Living Area'],
         selectedChapter: 'Bedroom',
         postersData: [{
             id: 'projectPoster',
             title: 'Our Project',
-            breadcrumbs: ['Home', 'Project'],
+            breadcrumbs: [
+                {
+                    linkText: 'Home',
+                    linkTo: '/'
+                },
+                {
+                    linkText: 'Project',
+                    linkTo: '/projects'
+                }
+            ],
             isTitleExist: true
         },
         {
             id: 'blogPoster',
             title: 'Articles & News',
-            breadcrumbs: ['Home', 'Blog'],
+            breadcrumbs: [
+                {
+                    linkText: 'Home',
+                    linkTo: '/'
+                },
+                {
+                    linkText: 'Blog',
+                    linkTo: '/blog'
+                }
+            ],
             isTitleExist: true
         },
         {
@@ -329,7 +672,7 @@ export default createStore({
             isTitleExist: false
         }
         ],
-        designData: [{
+        blogCardsData: [{
             image: "Design1.webp",
             labelText: "Kitchen Design",
             title: "Let’s Get Solution For Building Construction Work",
@@ -530,32 +873,7 @@ export default createStore({
             buttonNames: [`Kitchen`, `Bedroom`, `Building`, `Architecture`, `Kitchen Planning`, `Bathroom`],
             selectedButton: 'Kitchen'
         },
-        mainPageProjectData: [{
-            id: 'product1',
-            image: 'Product1.webp',
-            title: 'Modern Kitchen',
-            subTitle: 'Decor / Artchitecture'
-        },
-        {
-            id: 'product2',
-            image: 'Product2.webp',
-            title: 'Modern Kitchen',
-            subTitle: 'Decor / Artchitecture'
-        },
-        {
-            id: 'product3',
-            image: 'Product3.webp',
-            title: 'Modern Kitchen',
-            subTitle: 'Decor / Artchitecture'
-        },
-        {
-            id: 'product4',
-            image: 'Product4.webp',
-            title: 'Modern Kitchen',
-            subTitle: 'Decor / Artchitecture'
-        }
-        ],
-        mainPageCounterData: [{
+        countersData: [{
             number: 12,
             property: 'Years Of Experience',
             isVisibleLine: true
@@ -590,8 +908,8 @@ export default createStore({
             state.blogDetailsButtons.selectedButton = buttonName;
         },
         changeIsStarred(state, details) {
-            const chapter = state.projectPageCardsData.find((item) => item.chapter === details.chapter);
-            const card = chapter.cards.find((item) => item.id === details.id);
+            const chapter = state.projectCardsData.find((item) => item.chapter === details.chapter);
+            const card = chapter.cards.find((item) => item.idProject === details.id);
             card.isStarred = !card.isStarred;
         },
         changeTitleCurrentArticle(state, selectedArticle) {
@@ -609,22 +927,22 @@ export default createStore({
             return state.ProjectPageButtons;
         },
         getCardsData: state => {
-            return state.projectPageCardsData;
+            return state.projectCardsData;
         },
         getSelectedCard: state => {
             if (state.selectedChapter === 'Living Area') {
-                return state.projectPageCardsData.find((card) => card.chapter === 'livingArea');
+                return state.projectCardsData.find((card) => card.chapter === 'livingArea');
             }
-            return state.projectPageCardsData.find((chapter) => chapter.chapter === state.selectedChapter.toLowerCase());
+            return state.projectCardsData.find((chapter) => chapter.chapter === state.selectedChapter.toLowerCase());
         },
         getPostersData: state => {
             return state.postersData;
         },
-        getDesignData: state => {
-            return state.designData;
+        getBlogCardsData: state => {
+            return state.blogCardsData;
         },
-        getLastDesignData: state => {
-            return state.designData.slice(-1).at(0);
+        getLastBlogCardData: state => {
+            return state.blogCardsData.slice(-1).at(0);
         },
         getBlogDetailsButtons: state => {
             return state.blogDetailsButtons;
@@ -632,17 +950,14 @@ export default createStore({
         getSelectedBlogDetailsPage: state => {
             return state.blogDetailsPageData.find((chapter) => chapter.chapter === state.blogDetailsButtons.selectedButton);
         },
-        getMainPageProjectData: state => {
-            return state.mainPageProjectData;
-        },
-        getMainPageCounterData: state => {
-            return state.mainPageCounterData;
+        getCountersData: state => {
+            return state.countersData;
         },
         getSelectedItem: state => id => {
             if (state.selectedChapter === 'Living Area') {
-                return state.projectPageCardsData.find((card) => card.chapter === 'livingArea').cards.find((item) => item.id === id);
+                return state.projectCardsData.find((card) => card.chapter === 'livingArea').cards.find((item) => item.idProject === id);
             }
-            return state.projectPageCardsData.find((chapter) => chapter.chapter === state.selectedChapter.toLowerCase()).cards.find((item) => item.id === id);
+            return state.projectCardsData.find((chapter) => chapter.chapter === state.selectedChapter.toLowerCase()).cards.find((item) => item.idProject === id);
         },
         getProjectArticleData: state => {
             return state.currentProjectArticleData;

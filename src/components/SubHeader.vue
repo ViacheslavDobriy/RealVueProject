@@ -3,7 +3,13 @@
         <div class="poster__intro" v-show="posterData.isTitleExist">
             <h1 class="poster__title">{{ posterData.title }}</h1>
             <p>
-                <a href="#" class="poster__breadcrumb" v-for="breadcrumb in posterData.breadcrumbs" :key="breadcrumb.id">{{ breadcrumb }}</a>
+                <RouterLink 
+                :to="breadcrumb.linkTo"
+                class="poster__breadcrumb"
+                v-for="breadcrumb in posterData.breadcrumbs"
+                :key="breadcrumb.id">
+                {{ breadcrumb.linkText }}
+                </RouterLink>
             </p>
         </div>
     </div>
