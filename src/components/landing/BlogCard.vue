@@ -11,26 +11,24 @@
                 <h3 class="blog__title">{{ card.title }}</h3>
                 <footer class="blog__footer">
                     <p class="blog__date">{{ card.date }}</p>
-                    <a href="#" class="blog__link">
+                    <RouterLink to="/blogDetails" class="blog__link">
                         <svg width="52" height="53" viewBox="0 0 52 53" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="26" cy="26.267" r="26" fill="#F4F0EC" />
                             <path d="M23.7714 32.9527L29.7143 26.267L23.7714 19.5813" stroke="#292F36"
                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
-                    </a>
+                    </RouterLink>
                 </footer>
             </div>
         </div>
     </RouterLink>
 </template>
 <script>
-import { RouterLink } from 'vue-router';
 
 export default {
     props: {
         card: Object
     },
-    name: 'BlogCard',
-    components: { RouterLink }
+    name: 'BlogCard'
 }
 </script>

@@ -1,7 +1,7 @@
 <template>
     <Banner />
-    <MainProject :cards="getMainPageProjectData"/>
-    <MainCounter :counters="getMainPageCounterData"/>
+    <MainProject :projectCards="getCardsData"/>
+    <MainCounter :counters="getCountersData"/>
     <MainBlog />
 </template>
 
@@ -21,7 +21,7 @@ export default {
     MainBlog
   },
   computed: {
-    ...mapGetters(['getMainPageProjectData', 'getMainPageCounterData'])
-  },
+    ...mapGetters(['getCardsData', 'getCountersData'])
+  }
 }
 </script>

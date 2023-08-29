@@ -110,6 +110,12 @@
         align-items: center;
     }
 
+    &__date {
+        @include setterFontStyle('Jost', 16px, 150%, $grayColor);
+        letter-spacing: 0.16px;
+        text-transform: capitalize;
+    }
+
     &__link svg path {
         transition: 0.3s;
     }
